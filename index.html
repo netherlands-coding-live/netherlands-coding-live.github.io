@@ -23,26 +23,27 @@
 
 <style type="text/css">
 
- @import url('https://fonts.googleapis.com/css?family=ABeeZee');
-
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
 
 body{
 height:100vh; /* This is needed to overcome a Chrome bug. */
-width:100vw;  /* As above. */
+width:100vh;  /* As above. */
 /*background-color: #191919;*/
 }
 
 .style01 {
     font-family: 'ABeeZee', sans-serif;
+    font-weight: bold;
     float:right;
-	font-size: 20vh;
+	font-size: 30vh;
 	color: black;
 	background-color: white;	
-	width: auto;
-	margin-right: 2vh;		
-/*	font-size: 50vh;*/
-	height: 100vh;
+/*	margin: 1vh;		
+	font-size: 50vh;
+	width: auto;	
+*/
+	width: 100vh;
 	display: inline-block;	
 	-webkit-animation-direction: normal;
 	-webkit-animation-duration: 10s;
@@ -62,17 +63,19 @@ width:100vw;  /* As above. */
 	100% {color: #808080;}
 }
 
+
 #info{
 	margin-left: 12pt;
 	position: fixed;
     font-family: 'ABeeZee', sans-serif;
 	font-size: 12pt;
-	color: black;
+	color: black;	
+	height: 100%;
+	overflow-y: scroll;
 }
 
 #info a{
 	margin-left: 12pt;
-	position: fixed;
     font-family: 'ABeeZee', sans-serif;
 	text-decoration: none;
 	font-size: 12pt;
@@ -80,7 +83,8 @@ width:100vw;  /* As above. */
 }
 
 #events {
-	margin-top: 55%;
+	margin-top: 25%;
+	width: 60%;
 }
 
 </style>
@@ -90,9 +94,24 @@ width:100vw;  /* As above. */
 <div id="info">
 <p>Netherlands Coding Live aka "NLCL" ~ a series of live coding sessions, discussion and a lot more organized by live coders based in The Netherlands.</p>
 
-<p>Follow the latest updates, events and get in touch with the community over: <br><br><a href="https://twitter.com/NL_CodingLive"> *Twitter* </a><br><a href="https://www.facebook.com/netherlandscoding.live.7?ref=br_rs"> *Facebook* </a> <br><a href=""> *Lurk* </a><br><br></p>
+<p>Follow the latest updates, events and get in touch with the community over: <br><br><a href="https://twitter.com/NL_CodingLive"> * Twitter * </a><br><a href="https://www.facebook.com/netherlandscoding.live.7?ref=br_rs"> * Facebook * </a> <br><a href="https://we.lurk.org/postorius/lists/livecode-nl.we.lurk.org/"> * Mailing List * </a>
+<p style="width: 60%; font-size: 10pt;">In the near future we would like to keep our communication outside social media as much as possible. To keep track of events and follow on various communication material, please subscribe to our mailing list!<br><br></p>
 
-<div id="events"><i>Comming soon:</i><br><p>15.04.2018: "Fail to Parse" — 17h @Steim, Amsterdam</p></div>
+<div id="events"><i>Comming soon:</i><br>
+
+	<p style="font-weight: bold;">15.04.2018: "Fail to Parse" — 17h-21h @STEIM studio 3, Schipluidenlaan 12, Amsterdam</p>
+
+	<p>The parse failure is a reply from the machine to let us know that it doesn't understand us. It gives us access to the machine's mind and usually gives hints on how to re-phrase our commands so that the machine can better understand what we are aiming for. Robert Henke stated that "failures are great, pointing to the future". Through failure we can learn, we get new ideas. You need to experiment and be ready to fail to develop new things and learn new skills.</p>
+
+	<p>During this livecoding gathering we want to help each other to overcome our fear of code, of the unknown, try things we never did before — fail together and parse our failures collectively. We will be coding within the realm of music and visuals. No prior experience is a must, the only requirement is the motivation and readiness to code, even if it is your first time!</p>
+
+	<p>We want to explore other modes than the solo livecoder and mix methods from agile development with improvisation games.</p>
+
+	<p>We want to share and explore together: hands-on instead of show &amp tell.</p>
+
+	<p>Come and join us!</p>
+
+</div>
 
 </div>
 
