@@ -84,12 +84,21 @@ width:100vh;  /* As above. */
 
 <div style='text-align: center'>
 <h2>NL_CL #1 | April 15th 2016 @ Steim</h2>
+<video controls autoplay><source src='../images/nlcl1/nl_cl vid2.mp4' type='video/mp4'></video>
 <img src='../images/nlcl1/1.JPG' alt='image 1 nl_cl #1'>
 <img src='../images/nlcl1/2.JPG' alt='image 1 nl_cl #1'>
 <img src='../images/nlcl1/3.JPG' alt='image 1 nl_cl #1'>
 <video controls><source src='../images/nlcl1/nl_cl vid1.mp4' type='video/mp4'></video>
-<video controls autoplay><source src='../images/nlcl1/nl_cl vid2.mp4' type='video/mp4'></video>
 </div>
 
 </body>
+<script>
+var narcode = document.querySelector('img');
+var anim1 = setInterval( () => {
+i += 1;
+if (i > screen.width - nar[0].width) {
+nar[0].style.marginLeft = i + 'px';
+  }
+}, Math.floor(Math.random() * 1000) + 1 )
+</script>
 <html>
