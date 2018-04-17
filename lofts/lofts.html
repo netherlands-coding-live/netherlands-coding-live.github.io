@@ -97,8 +97,7 @@ var i = [0,0,0];
 var nar = document.querySelectorAll('img');
 var anim = [];
 for (l = 0; l < nar.length; l++) {
-console.log(l);
-var anim1 = setInterval( () => {
+var anim[l] = setInterval( () => {
 i[l] += 1;
 nar[l].style.marginLeft = i[l] + 'px';
 if (i[l] > screen.width - nar[l].width) {
