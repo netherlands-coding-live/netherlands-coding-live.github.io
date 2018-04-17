@@ -99,6 +99,7 @@ var anim = [];
 for (l = 0; l < nar.length; l++) {
 anim[l] = setInterval( () => {
 i[l] += 1;
+console.log("l is: " + l);
 nar[l].style.marginLeft = i[l] + 'px';
 if (i[l] > screen.width - nar[l].width) {
 nar[l].style.marginLeft = -i[l] + 'px';
