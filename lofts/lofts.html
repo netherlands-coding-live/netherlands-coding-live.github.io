@@ -99,7 +99,7 @@ var anim1 = setInterval( () => {
 i += 1;
 nar[0].style.marginLeft = i + 'px';
 if (i > screen.width - nar[0].width) {
-i = 0;
+i -= 1;
   }
 }, Math.floor(Math.random() * 100) + 1 )
 </script>
