@@ -97,9 +97,11 @@ var i = 0;
 var nar = document.querySelectorAll('img');
 var anim1 = setInterval( () => {
 i += 1;
-if (i > screen.width - nar[0].width) {
+if (i < screen.width - nar[0].width) {
 nar[0].style.marginLeft = i + 'px';
-  }
+  } else {
+i = 0;
+}
 }, Math.floor(Math.random() * 1000) + 1 )
 </script>
 <html>
