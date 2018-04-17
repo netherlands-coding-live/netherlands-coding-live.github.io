@@ -96,16 +96,14 @@ width:100vh;  /* As above. */
 var i = [0,0,0];
 var nar = document.querySelectorAll('img');
 var anim = [];
-console.log(nar.length);
 for (l = 0; l < nar.length; l++) {
-console.log(nar.length);
-// anim[l] = setInterval( () => {
-// i[l] += 1;
-// nar[l].style.marginLeft = i[l] + 'px';
-// if (i[l] > screen.width - nar[l].width) {
-// nar[l].style.marginLeft = -i[l] + 'px';
-//   }
-// }, Math.floor(Math.random() * 100) + 1 )
+anim[l] = setInterval( () => {
+i[l] += 1;
+nar[l].style.marginLeft = i[l] + 'px';
+if (i[l] > screen.width - nar[l].width) {
+nar[l].style.marginLeft = -i[l] + 'px';
+  }
+}, Math.floor(Math.random() * 100) + 1 )
 }
 </script>
 <html>
