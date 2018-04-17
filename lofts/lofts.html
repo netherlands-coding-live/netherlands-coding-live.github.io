@@ -93,18 +93,19 @@ width:100vh;  /* As above. */
 
 </body>
 <script>
-var i = [0,0,0];
-var nar = document.querySelectorAll('img');
-var anim = [];
-for (l = 0; l < nar.length-1; l++) {
-anim[l] = setInterval( () => {
-i[l] += 1;
-console.log("l is: " + l);
-nar[l].style.marginLeft = i[l] + 'px';
-if (i[l] > screen.width - nar[l].width) {
-nar[l].style.marginLeft = -i[l] + 'px';
-  }
-}, Math.floor(Math.random() * 100) + 1 )
-}
+// continue another time...
+// var i = [0,0,0];
+// var nar = document.querySelectorAll('img');
+// var anim = [];
+// for (l = 0; l < nar.length-1; l++) {
+// anim[l] = setInterval( () => {
+// i[l] += 1;
+// console.log("l is: " + l);
+// nar[l].style.marginLeft = i[l] + 'px';
+// if (i[l] > screen.width - nar[l].width) {
+// nar[l].style.marginLeft = -i[l] + 'px';
+//   }
+// }, Math.floor(Math.random() * 100) + 1 )
+// }
 </script>
 <html>
