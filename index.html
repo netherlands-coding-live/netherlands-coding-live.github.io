@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<title>Netherlands Coding Live</title>
+<title>NL Coding Live</title>
 
   <meta charset="utf-8"/>
   <meta name="description" content="Selection of Logos for Netherlands Live Coding">
@@ -17,6 +17,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/> 
+
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 	
 
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -35,7 +38,7 @@ width:100vh;  /* As above. */
 .style01 {
     font-family: 'ABeeZee', sans-serif;
     font-weight: bold;
-	font-size: 60vh;
+	font-size: 50vh;
 	color: black;
 /*	background-color: white;	
 	margin: 1vh;		
@@ -68,6 +71,7 @@ width:100vh;  /* As above. */
 
 
 #info{
+	float: left;	
 	margin-left: 12pt;
 	position: fixed;
     font-family: 'ABeeZee', sans-serif;
@@ -86,8 +90,14 @@ width:100vh;  /* As above. */
 }
 
 #events {
-	margin-top: 25%;
+	margin-top: 25%;	
 	width: 60%;
+}
+
+.twitter-timeline{
+	float: right;
+	margin-right: 2%;	
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,6 +106,10 @@ width:100vh;  /* As above. */
 }
 	.style01{
 	font-size: 8vh;
+}
+
+	#twitter{
+	display: none;
 }
 }
 
@@ -106,21 +120,26 @@ width:100vh;  /* As above. */
 <body>
 
 <div id="info">
-<p>Netherlands Coding Live aka "NLCL" ~ a series of live coding sessions, discussion and a lot more organized by live coders based in The Netherlands.</p>
 
-<p>Follow the latest updates, events and get in touch with the community over: <br><br><a href="https://twitter.com/NL_CodingLive"> * Twitter * </a><br><a href="https://www.facebook.com/nlcodinglive/"> * Facebook * </a> <br><a href="https://we.lurk.org/postorius/lists/livecode-nl.we.lurk.org/"> * Mailing List * </a></p>
-<p style="width: 60%; font-size: 10pt;">In the near future we would like to keep our communication outside social media as much as possible. To keep track of events and follow on various communication material, please subscribe to our mailing list!<br><br></p>
+<p style="font-weight: bold;">>Netherlands Coding Live aka "NLCL" ~ a series of live coding sessions, discussion and a lot more organized by live coders based in The Netherlands.</p>
+
+<div id="twitter">
+<a class="twitter-timeline" data-width="250" data-height="900" href="https://twitter.com/NL_CodingLive?ref_src=twsrc%5Etfw"></a> 
+</div>
 
 <div id="events">
 
-</p><i>Future events: Come and join us!</i></p>
+<p>Follow the latest updates, events and get in touch over: <br><br><a href="https://twitter.com/NL_CodingLive" target="_blank"> * Twitter * </a><br><a href="https://www.facebook.com/nlcodinglive/" target="_blank"> * Facebook * </a> <br><a href="https://we.lurk.org/postorius/lists/livecode-nl.we.lurk.org/" target="_blank"> * Mailing List * </a></p>
+<p style="width: 60%; font-size: 10pt;">In the near future we would like to keep our communication outside social media as much as possible. To keep track of events and follow on various communication material, please subscribe to our mailing list!<br><br></p>
+
+<p><a href="community.html" target="_blank"> * Community Links * </a><br></p> 
+<br>
+<p><i>Events: Come and join us!</i></p>
 
 	<p style="font-weight: bold;">31.05.2018: "Algo-Rhythms #2" — 20h30-23h @Worm, Boomgaardsstraat 71, Rotterdam</p>	
 
 	<p>An evening of live coding performances by the duo Anne Veinberg and Felipe Ignacio Noriega, with the telematic presence of Alexandra Cardenas and an algorithmic improv by Netherlands Coding Live community. This event is dedicated to the act of coding as a live artistic intervention; from digital to physical expressions, a myriad of experiments relating code with sound, code to the body, the body to movement and counter-movements. This programme is part of a series co-organized by Joana Chicau, who will facilitate conversations with the performers about their practice and experiences. The talks will focus on the issue of how multilocation collaborative creative coding and algorithmic improvisation may open the path towards more inclusive and gender balanced communities. <a href="https://worm.org/production/algo-rhythms/"> >> more info here << </a></p>	
-<br><br><br><br>
-
-<p><i>Past events:</i></p>
+<br>
 
 	<p style="font-weight: bold;">15.04.2018: "Fail to Parse" — 17h-21h @STEIM studio 3, Schipluidenlaan 12, Amsterdam</p>
 
@@ -129,6 +148,7 @@ width:100vh;  /* As above. */
 	<p>During this livecoding gathering we want to help each other to overcome our fear of code, of the unknown, try things we never did before — fail together and parse our failures collectively. We will be coding within the realm of music and visuals. No prior experience is a must, the only requirement is the motivation and readiness to code, even if it is your first time!</p>
 
 	<p>We want to explore other modes than the solo livecoder and mix methods from agile development with improvisation games. We want to share and explore together: hands-on instead of show &amp tell.</p>
+<br>	
 </div>
 </div>
 
