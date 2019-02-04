@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <title> nl_cl & friends </title>
 
+<style type="text/css">
+@import url(reset_meyer.css);
+
+body {
+  margin: 50px;
+
+}
+
+#text{
+  font-family: monospace; 
+  color:blue;  
+  margin: 20px;	
+  padding : 120px;	
+  font-size: 24pt;
+  line-height: 30pt;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  height: 250px;
+}
+
+a:link {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;  
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+  line-height: 24pt;
+  color: black;  
+}
+
+a:hover {
+  color: blue;  
+}
+
+a:visited {
+	text-decoration: none;
+	color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+#text{
+  margin: 2px; 
+  padding : 8px;  
+  font-size: 11pt;
+  line-height: 15pt;
+  height: 100px;
+}
+
+}
+
+
+
+</style>   
+</head>
+
+<body> 
+
+<div id="text">
+
+  <ul>
+    <li>2019 - February 9 - <a href"https://creativecoding.community/amsterdam" target=_blank>Processing Community Day Amsterdam<a> - Giovianni, Timo and Marije will present projects here</li>
+  </ul>  
+  
+</div>
+
+
+<br>
+  
+  
+
+<script type="text/javascript">
+
+var delay="10"; //how many seconds
+var count='0';
+var Texts=new Array();
+
+Texts[0]=" Give us access to the performer's mind, to the whole human instrument. [TOPLAP] ";
+Texts[1]=" Obscurantism is dangerous. Show us your screens. [TOPLAP] ";
+Texts[2]=" Programs are instruments that can change themselves. [TOPLAP] ";
+Texts[3]=" The program is to be transcended - Artificial language is the way. [TOPLAP] ";
+Texts[4]=" Code should be seen as well as heard, underlying algorithms viewed as well as their visual outcome. [TOPLAP] ";
+Texts[5]=" ...live coding scene represents a kind of free, open, collective model for supporting musical practice and culture, in contrast to the generally competitive dominant paradigm. Alex McLean [CDM] ";
+Texts[6]=" It's becoming a movement. I know we are small now, but I see it growing so strong and fast. It's a point where technology, geek stuff and this hacker philosophy come together with clubbing. — Alexandra Cardenas [WIRED] ";
+Texts[8]=" Live coding practitioners ask the audience to share the risk and the fascination of live making. By emphasising the risk of such making, these practices deliberately expose the body in flux, the body in constant negotiation with the environment and the instrument, itself in flux. — Franziska Schroeder [The Pontydian Performance, The Performative Layer] ";
+Texts[9]=" Live coding is a new direction in electronic music and video: live coders expose and rewire the innards of software while it generates improvised music and/or visuals. All code manipulation is projected for your pleasure. [TOPLAP] ";
+Texts[10]="I think the real beauty of this is that it is a growing movement, and to include a good gender balance from the start helps sustain the numbers of women involved in these events longterm. The more role models we have the better! — Lucy Cheesman [MixMag] ";
+Texts[11]=" I think that conversations are the best, biggest thing that Free Software has to offer its user. — Debian developer Asheesh Laroia. ";
+Texts[12]=" It’s crashed, he said to the audience. But, within seconds, he came back at it and a beat returned. Alex McLean [VICE] ";
+
+function New_Sequence_or_Phrasing(){
+document.querySelector('#text').innerHTML=Texts[count];
+count++;
+if(count==Texts.length){count='0';}
+setTimeout("New_Sequence_or_Phrasing()",delay*1500);
+
+}
+New_Sequence_or_Phrasing()
+
+</script>
+
+
+</body>
