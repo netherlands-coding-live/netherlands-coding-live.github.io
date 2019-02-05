@@ -96,7 +96,7 @@ Texts[11]=" I think that conversations are the best, biggest thing that Free Sof
 Texts[12]=" It’s crashed, he said to the audience. But, within seconds, he came back at it and a beat returned. Alex McLean [VICE] ";
 
 function New_Sequence_or_Phrasing(){
-document.querySelector('#text').innerHTML=Texts[8];
+document.querySelector('#text').innerHTML=Texts[count];
 count++;
 if(count==Texts.length){count='0';}
 setTimeout("New_Sequence_or_Phrasing()",delay*1500);
