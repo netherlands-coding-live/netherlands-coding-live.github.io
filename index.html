@@ -30,9 +30,9 @@
 
 
 body{
-height:100vh; /* This is needed to overcome a Chrome bug. */
-width:100vh;  /* As above. */
-/*background-color: #191919;*/
+	height:100vh; /* This is needed to overcome a Chrome bug. */
+	width:100vh;  /* As above. */
+	/*background-color: #191919;*/
 }
 
 .style01 {
@@ -48,9 +48,12 @@ width:100vh;  /* As above. */
 	position: absolute;
 	z-index: 1;
 */
+	z-index: -10;
 	height: 60vh;
 	width: auto;
+	/* height: auto; */
 	display: inline-block;
+	overflow-y: hidden;
 	-webkit-animation-direction: normal;
 	-webkit-animation-duration: 10s;
 	-webkit-animation-iteration-count: infinite;
@@ -69,20 +72,20 @@ width:100vh;  /* As above. */
 	100% {color: #808080;}
 }
 
-
 #info{
 	float: left;
-	margin-left: 12pt;
+	margin-left: 5%;
 	position: fixed;
     font-family: 'ABeeZee', sans-serif;
 	font-size: 12pt;
 	color: black;
 	height: 100%;
 	overflow-y: scroll;
+	z-index: 10;
 }
 
 #info a{
-	margin-left: 12pt;
+	margin-left: 5%;
     font-family: 'ABeeZee', sans-serif;
 	text-decoration: none;
 	font-size: 12pt;
@@ -90,111 +93,132 @@ width:100vh;  /* As above. */
 }
 
 #events {
-	margin-top: 25%;
+	margin-top: 10%;
 	width: 60%;
 }
 
 .twitter-timeline{
 	float: right;
-	margin-right: 2%;
-
+	margin-top: 2%;
+	margin-right: 5%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
 	#events{
-    width: 100%;
-}
+    	width: 100%;
+	}
 	.style01{
-	font-size: 8vh;
-}
-
+		font-size: 8vh;
+	}	
 	#twitter{
-	display: none;
+		display: none;
+	}
 }
-}
-
 
 </style>
-
 </head>
+
 <body>
-
 <div id="info">
+	<div id="twitter">
+		<a class="twitter-timeline" data-width="250" data-height="650" href="https://twitter.com/NL_CodingLive?ref_src=twsrc%5Etfw"></a>
+	</div>
 
-<p style="font-weight: bold;">>Netherlands Coding Live aka "NLCL" ~ a series of live coding sessions, discussion and a lot more organized by live coders based in The Netherlands.</p>
-
-<div id="twitter">
-<a class="twitter-timeline" data-width="250" data-height="900" href="https://twitter.com/NL_CodingLive?ref_src=twsrc%5Etfw"></a>
-</div>
+	<p style="font-weight: bold; width: 60%">
+		>Netherlands Coding Live aka "NLCL" ~ a series of live coding sessions, discussions and a lot more organized by live coders based in The Netherlands.
+	</p>
 
 <div id="events">
+	<h1>Follow Us</h1>
 
-<p>Follow the latest updates, events and get in touch over: <br>
-	<br><a style="font-size: 16pt;" href="https://we.lurk.org/postorius/lists/livecode-nl.we.lurk.org/" target="_blank"> * Mailing List * </a> (the best way to stay uptodate)
-	<br><a style="font-size: 16pt;" href="https://twitter.com/NL_CodingLive" target="_blank"> * Twitter * </a>
-	<br><a style="font-size: 16pt;" href="https://www.facebook.com/nlcodinglive/" target="_blank"> * Facebook * </a>
-</p>
-<p style="width: 60%; font-size: 10pt;">In the near future we would like to keep our communication outside social media as much as possible. To keep track of events and follow on various communication material, please subscribe to our mailing list!<br><br></p>
+	<p style="width: 60%"> Follow the latest updates, events and get in touch over: 
+		<br>
+		<br><a style="font-size: 16pt; hover-text: red" href="https://toplap.lurk.org/c/communities/nl" target="_blank"> * TOPLAP Forum * </a> (the best way to stay up-to-date)
+		<br>
+		<br><a style="font-size: 16pt;" href="https://we.lurk.org/postorius/lists/livecode-nl.we.lurk.org/" target="_blank"> * Mailing List * </a> (will soon go offline)
+		<br>
+		<br><a style="font-size: 16pt;" href="https://twitter.com/NL_CodingLive" target="_blank"> * Twitter * </a>
+		<br>
+		<br><a style="font-size: 16pt;" href="https://www.facebook.com/nlcodinglive/" target="_blank"> * Facebook * </a>
+	</p>
 
-<p><a style="font-size: 18pt;" href="community.html" target="_blank"> * Community Members * </a><br></p>
-<br>
-	<p><i>Events: Come and join us!</i> or find us <a href="elsewhere.html"><i>elsewhere</i></a>...</p>
+	<p style="width: 60%; font-size: 10pt;">
+		We like to keep our communication outside social media as much as possible. Please join the TOPLAP forum and set a watch on our <a style="width: 60%; font-size: 10pt;" href="https://toplap.lurk.org/c/communities/nl" target="_blank"> Livecode-nl thread</a>
+	</p>
+	<br>
+	<hr>
 
-<!-- events start here -->
+	<a href="community.html"><h1>
+		Community Members & Portfolio 
+	</h1></a>
+
+	<br>
+	<hr>
+	<br>
+
+	<p>
+		<i>Events: Come and join us!</i> or find us <a href="elsewhere.html"><i>elsewhere</i></a>...
+	</p>
+
+	<h1>Upcoming Meetups</h1>
+	<!-- upcoming meetups listed here -->
 	<p style="font-weight: bold;">14.08.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h @Location T.B.A.</p>
 	<p>Join us to talk Live Coding, explore it hands-on, plan some events, and of course have some tea & coffee!</p>
-<br>
+	<br>
+	<hr>
+	<br>
 
+	<h1>Past Meetups</h1>
+	<!-- Copy past the upcoming meetup to the past meetups -->
 	<p style="font-weight: bold;">03.07.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h <a href="https://www.koncon.nl/" target="_blank">@Royal Conservatory The Hague</a>, Vareze Zaal, Juliana van Stolberglaan 1, Den Haag.</p>
 	<p>Join us to talk Live Coding, explore it hands-on, plan some events, and of course have some tea & coffee!</p>
-<br>
+	<br>
 
 	<p style="font-weight: bold;">10.06.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h <a href="https://degroenegemeenschap.org" target="_blank">@De Groene Gemeenschap</a>, Barkasstraat 7A, Amsterdam.</p>
 	<p>Join us to talk Live Coding, explore it hands-on, plan some events, and of course have some tea & coffee!</p>
 	<p>Some of us will present about what they did during the recent Choreographic Coding Lab</p>
-<br>
+	<br>
 
 	<p style="font-weight: bold;">13.05.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h @CvA (room 605)</p>
 	<p>Argentinian live-coding artist eerieear will be visiting us and talk about his live coding practice. 
 		Furthermore, as always, feel welcome to join for some live coding talk and action!
 	</p>
-<br>
+	<br>
 	
 	<p style="font-weight: bold;">08.04.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h @CvA (room 636)</p>
 	<p>Join us to talk Live Coding, explore it hands-on, plan some events, and of course have some coffee!
 	</p>
-<br>
+	<br>
 
-	<p style="font-weight: bold;">11.03.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h @Conservatorium van Amsterdam (room 608),
- Oosterdokskade 151, Amsterdam</p>
+	<p style="font-weight: bold;">11.03.2019: "Live Coding Meet~up ☕️ 💻 ☕️" - 19h30-22h @Conservatorium van Amsterdam (room 608), Oosterdokskade 151, Amsterdam</p>
 	<p>Join us to talk Live Coding, explore it hands-on, plan some events, and of course have some coffee!
 	</p>
-<br>
+	<br>
 
 	<p style="font-weight: bold;">04.02.2019: "NL~CL post~ICLC meet~up" - 18h30-22h @Varia, Gouwstraat 3, Rotterdam</p>
 	<p>Join us<a href="http://varia.zone/en/" target="_blank"> >>> at Varia.Zone <<< </a>in this session, among other issues, we will be reflecting on the <a href="http://iclc.livecodenetwork.org/2019/" target="_blank">International Live Coding Conference</a> which took place in Madrid.
 	</p>
-<br>
+	<br>
 
 	<p style="font-weight: bold;">13.01.2019: "ICLC previews at Sounds Like Soup" - 15h-18h @De Groene Gemeenschap, Barkasstraat 7A, Amsterdam</p>
 	<p>We join up with the event <a href="https://degroenegemeenschap.org/?p=944" target="_blank">'Sounds Like Soup'</a> to perform the pieces that we will show at the <a href="http://iclc.livecodenetwork.org/2019/" target="_blank">International Live Coding Conference</a> in Madrid a week later. 'Sounds Like Soup' presents a cosy, informal living room environment, and of course soup!
 	</p>
-<br>
+	<br>
 
 	<p style="font-weight: bold;">03.12.2018: "Unofficial Live Coding Meetup" — 19h30-22h @Conservatorium van Amsterdam, Oosterdokskade 151, Amsterdam</p>
 	<p>A relaxed and welcoming meetup. We might live code music and visuals, plan upcoming meetups, gather ideas for future events, or talk the
-      upcoming <a href="http://iclc.livecodenetwork.org/2019/" target="_blank">International Live Coding Conference</a>. OR maybe simply talk over coffee and laptop screens 💻 ☕️ </p>
-<br>
+	upcoming <a href="http://iclc.livecodenetwork.org/2019/" target="_blank">International Live Coding Conference</a>. OR maybe simply talk over coffee and laptop screens 💻 ☕️ </p>
+	<br>
 
 	<p style="font-weight: bold;">29.10.2018: "Unofficial Live Coding Meetup" — 19h30-22h @Conservatorium van Amsterdam (room 433), Oosterdokskade 151, Amsterdam</p>
 	<p>A relaxed and welcoming meetup. We might live code music and visuals, plan upcoming meetups, gather ideas for future events, or talk the
-      upcoming Algorave event at<a href="https://ekko.nl/productie/algorave" target="_blank">* EKKO *</a> organized by<a href="https://www.creativecodingutrecht.nl/2018/08/20/ccu-exhibition-hello-world/" target="_blank">* Creative Coding Utrecht *</a>.
-      OR maybe simply talk over coffee and laptop screens 💻 ☕️ </p>
-<br>
+	upcoming Algorave event at<a href="https://ekko.nl/productie/algorave" target="_blank">* EKKO *</a> organized by<a href="https://www.creativecodingutrecht.nl/2018/08/20/ccu-exhibition-hello-world/" target="_blank">* Creative Coding Utrecht *</a>.
+	OR maybe simply talk over coffee and laptop screens 💻 ☕️ </p>
+	<br>
 
 	<p style="font-weight: bold;">31.05.2018: "Algo-Rhythms #2" — 20h30-23h @Worm, Boomgaardsstraat 71, Rotterdam</p>
 	<p>An evening of live coding performances by the duo Anne Veinberg and Felipe Ignacio Noriega, with the telematic presence of Alexandra Cardenas and an algorithmic improv by Netherlands Coding Live community. This event is dedicated to the act of coding as a live artistic intervention; from digital to physical expressions, a myriad of experiments relating code with sound, code to the body, the body to movement and counter-movements. This programme is part of a series co-organized by Joana Chicau, who will facilitate conversations with the performers about their practice and experiences. The talks will focus on the issue of how multilocation collaborative creative coding and algorithmic improvisation may open the path towards more inclusive and gender balanced communities. <a href="https://worm.org/production/algo-rhythms/"> >> more info here << </a></p>
-<br>
+	<br>
 
 	<p style="font-weight: bold;">15.04.2018: "Fail to Parse" — 17h-21h @STEIM studio 3, Schipluidenlaan 12, Amsterdam</p>
 
@@ -203,8 +227,10 @@ width:100vh;  /* As above. */
 	<p>During this livecoding gathering we want to help each other to overcome our fear of code, of the unknown, try things we never did before — fail together and parse our failures collectively. We will be coding within the realm of music and visuals. No prior experience is a must, the only requirement is the motivation and readiness to code, even if it is your first time!</p>
 
 	<p>We want to explore other modes than the solo livecoder and mix methods from agile development with improvisation games. We want to share and explore together: hands-on instead of show &amp tell.</p>
-<br>
-</div>
+	<br>
+	<hr>
+	<br>
+	</div>
 </div>
 
 <marquee class="style01" direction="up"><br> Live <br><br> Live <br><br><br>Live <br><br> Live <br><br> Live <br><br><br> Live <br><br>Live <br><br> Live <br><br> Live <br><br><br><br> Live <br><br><br> Live <br><br><br><br>Live <br> Live <br><br> Live <br> Live</marquee>
