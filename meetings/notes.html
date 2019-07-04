@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>nl_cl</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) ". ";
+  counter-increment: eighth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelfth) ". ";
+  counter-increment: twelfth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelfth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelfth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelfth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eighth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelfth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixteenth) ". ";
+  counter-increment: sixteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+
+</style>
+</head>
+<body>
+&#x2F;&#x2F;============================================================================================================<br>Meeting August 14th 2019<br><br>&#x2F;&#x2F;============================================================================================================<br>Meeting July 3th 2019<br><br>Attending: Timo, Craig, Felipe, Sebastian, Jonathan, Rafaele, Raphael<br><br>A meetup can be hosted in Baltan Laboratories (NATLAB) Eindhoven in the near future. Possibly the next meetup<br><br>We&#x27;ll be hosting a Livecoding Performance and Algorave at Zaal 100 on 11&#x2F;12 October probably. Trying to at least pay artists for traveling. Tickets can not be &gt; &#8364;15.<br>Hosting a livecoding performance at iii might be optional?<br>iii performance space: <a href="https&#x3a;&#x2F;&#x2F;instrumentinventors&#x2e;org&#x2F;workspace&#x2F;facilities&#x2F;">https:&#x2F;&#x2F;instrumentinventors.org&#x2F;workspace&#x2F;facilities&#x2F;</a><br><br>Algorave at the Skatepark can be hosted around october as well.<br><br>Add one portfolio link to this site (that link can be embedded on the site):<br><a href="https&#x3a;&#x2F;&#x2F;docs&#x2e;google&#x2e;com&#x2F;spreadsheets&#x2F;u&#x2F;1&#x2F;d&#x2F;1xkH1s0cvH0CvIAgp&#x2d;G5ZcMd3ZdEkA94OEDcszNxCJ4U&#x2F;edit&#x3f;usp&#x3d;drive&#x5f;web&amp;ouid&#x3d;108628670741562461466">https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;u&#x2F;1&#x2F;d&#x2F;1xkH1s0cvH0CvIAgp-G5ZcMd3ZdEkA94OEDcszNxCJ4U&#x2F;edit?usp=drive_web&amp;ouid=108628670741562461466</a><br><br>## We are looking at options for funding livecoding events:<br><br>_The Amsterdam Funds voor de Kunst_ has an option for supporting a series in Amsterdam at a specific location: <a href="https&#x3a;&#x2F;&#x2F;www&#x2e;amsterdamsfondsvoordekunst&#x2e;nl&#x2F;">https:&#x2F;&#x2F;www.amsterdamsfondsvoordekunst.nl&#x2F;</a><br><br>_Fonds voor de Podiumkunst_ has the &quot;SKIP&quot; subsidy to support intermittent programming (a series of minimum 6 shows) - Category 1 has minimal barriers to entry with a max of &#8364;5775, must be at a single location:&nbsp; <a href="https&#x3a;&#x2F;&#x2F;fondspodiumkunsten&#x2e;nl&#x2F;nl&#x2F;subsidies&#x2F;programmeringsregeling&#x5f;voor&#x5f;podia&#x5f;en&#x5f;festivals&#x2F;kleinschalige&#x5f;en&#x5f;incidentele&#x5f;programmering&#x5f;skip&#x2F;">https:&#x2F;&#x2F;fondspodiumkunsten.nl&#x2F;nl&#x2F;subsidies&#x2F;programmeringsregeling_voor_podia_en_festivals&#x2F;kleinschalige_en_incidentele_programmering_skip&#x2F;</a><br><br>__DEADLINE SEPT 18__<br><br>Possible venues we can collaborate with:<br>&nbsp;&nbsp;&nbsp; * iii space in The Hague (through Marije &amp; Jonathan)<br>&nbsp;&nbsp;&nbsp; * V2 in Rotterdam<br>&nbsp;&nbsp;&nbsp; * Zaal100 in Amsterdam<br><br><br>## What can we do to plant seeds for a national community while still sustaining our local groups?<br>&gt;&gt; Craig notes that if every &quot;national&quot; meeting is in a different location then there is no motivation for local groups to self-organize<br>&gt;&gt; let&#x27;s alternate between local &amp; national meetings, maybe at the beginning we need to travel with national meetings more often to plant the seeds of local groups, but eventually try to aim for 2-4 national meetings per year<br><br>## Showing work<br>Rafaele: KNURL<br>&nbsp;&nbsp;&nbsp; * self-made 12-string cello, with sensors on bow<br>&nbsp;&nbsp;&nbsp; * thinking of using STENO in SuperCollider as a system connected to her gestures<br>&nbsp;&nbsp;&nbsp; * STENO: <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;musikinformatik&#x2F;Steno">https:&#x2F;&#x2F;github.com&#x2F;musikinformatik&#x2F;Steno</a><br>She is running out of money to pay for progress of her work -&gt; she has a crowdfunding campaign<br><a href="https&#x3a;&#x2F;&#x2F;www&#x2e;kickstarter&#x2e;com&#x2F;projects&#x2F;knurl12e&#x2d;cello&#x2F;12&#x2d;strings&#x2d;recyclable&#x2d;e&#x2d;cello&#x3f;ref&#x3d;nav&#x5f;search&amp;result&#x3d;project&amp;term&#x3d;knurl">https:&#x2F;&#x2F;www.kickstarter.com&#x2F;projects&#x2F;knurl12e-cello&#x2F;12-strings-recyclable-e-cello?ref=nav_search&amp;result=project&amp;term=knurl</a><br><br><br>Sebastian:&nbsp;<br>&nbsp;&nbsp;&nbsp; * ORCA <a href="https&#x3a;&#x2F;&#x2F;wiki&#x2e;xxiivv&#x2e;com&#x2F;&#x23;orca">https:&#x2F;&#x2F;wiki.xxiivv.com&#x2F;#orca</a><br>&nbsp;&nbsp;&nbsp;&nbsp;<br>Craig:<br>&nbsp;&nbsp;&nbsp; * Caffiene for livecoding on the web: <a href="https&#x3a;&#x2F;&#x2F;caffeine&#x2e;js&#x2e;org&#x2F;">https:&#x2F;&#x2F;caffeine.js.org&#x2F;</a><br><br><br><br>&#x2F;&#x2F;============================================================================================================<br>Meeting March 11th 2019<br><br>Agenda:<br><br><ul class="bullet"><li>Silk-screen printing at Real-X Skatepark will cost about &#8364; 25 to make te silk screen. +- &#8364; 10 for the paint. We can also mix multiple colors to create a cool gradient effect in the print. Everyone would need to supply there own t-shirt as well of course. ( alternative oiption: <a href="https&#x3a;&#x2F;&#x2F;www&#x2e;spreadshirt&#x2e;com&#x2F;">https:&#x2F;&#x2F;www.spreadshirt.com&#x2F;</a> )</li><li>Facebook group can not be changed to @nlcl, so it will stay: @nlcodinglive</ul><ul class="indent"><li>I&#x27;m still keen to discuss post-ICLC2019 realizations, feelings, ideas, etc...&nbsp;</ul><ul class="bullet"><li>Hosting ICLC2021 ???&nbsp;</li><li><a href="https&#x3a;&#x2F;&#x2F;worm&#x2e;org&#x2F;&#x3f;s&#x3d;algo&#x2d;rhythms">https:&#x2F;&#x2F;worm.org&#x2F;?s=algo-rhythms</a> &gt; 3 new editions 2019&nbsp;</li><li>&#8212; 28th April (20h-22h30)- if your are interested let Joana know : )</li><li>- later there will be more events: September and November.</li><li><a href="http&#x3a;&#x2F;&#x2F;fanfarefanfare&#x2e;nl&#x2F;">http:&#x2F;&#x2F;fanfarefanfare.nl&#x2F;</a> is interested in hosting us first week of June&nbsp;</li><li><a href="https&#x3a;&#x2F;&#x2F;www&#x2e;nightofthenerds&#x2e;com">https:&#x2F;&#x2F;www.nightofthenerds.com</a> &gt; 21th May, Eindhoven: maybe interested in hosting some livecoding as a presentation to highschool kids (there is already a sonicpi workshop hosted).</ul><br>for sister events please add here: <a href="https&#x3a;&#x2F;&#x2F;netherlands&#x2d;coding&#x2d;live&#x2e;github&#x2e;io&#x2F;elsewhere&#x2e;html">https:&#x2F;&#x2F;netherlands-coding-live.github.io&#x2F;elsewhere.html</a><br><br>&#x2F;&#x2F;============================================================================================================<br>February 4th 2019<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Agenda:<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp; &gt; Reflections on <a href="https&#x3a;&#x2F;&#x2F;iclc&#x2e;livecodenetwork&#x2e;org&#x2F;2019&#x2F;">https:&#x2F;&#x2F;iclc.livecodenetwork.org&#x2F;2019&#x2F;</a>&nbsp;<br>&nbsp;&nbsp;&nbsp; &gt; Alex and Renick for an event on the night of the 17th? (Alex could do the 16th, see his email)<br>&nbsp;&nbsp;&nbsp; &gt; NL_CL Platforms: how to improve our online presence and * knowledge sharing * (add links; resources to website; how active should we be in social media? see nice reference:<a href="https&#x3a;&#x2F;&#x2F;openrndr&#x2e;org&#x2F;">https:&#x2F;&#x2F;openrndr.org&#x2F;</a> &#x2F; toplap &#x2F; ...)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp; &gt; Sketches for stickers &amp; t-shirts;<br><ul class="indent"><li><ul class="indent"><li><ul class="indent"><li>&gt; Are we using @nlcl as logo? Should we change to #nlcl? Or maybe nl_cl&#x2F;nl-cl. Or if we stick to @nlcl, should we make accounts on ig&#x2F;fb so we can actually be tagged? &#8212; we will focus on variations of &quot;NL_CL &#x2F; nl_cl &#x2F; netherlands coding live&quot;; _nl_cl</li><li>Add your stickers here: <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;netherlands&#x2d;coding&#x2d;live&#x2F;netherlands&#x2d;coding&#x2d;live&#x2e;github&#x2e;io&#x2F;tree&#x2F;master&#x2F;nl&#x5f;cl&#x5f;graphics&#x2F;stickers">https:&#x2F;&#x2F;github.com&#x2F;netherlands-coding-live&#x2F;netherlands-coding-live.github.io&#x2F;tree&#x2F;master&#x2F;nl_cl_graphics&#x2F;stickers</a></li><li></li><li>&gt; Timo will check silk screen options for DIY t-shirts by NL_CL:</li><li></ul></li></ul><li>&gt; What can we do to work towards a gender balance in the creative (live)coding community? Workshops, performances, presentations? Try to host workshops in for example HighSchools (and maybe even primary school?)&nbsp;</li><li></li><li>* *&nbsp;&nbsp;</li><li></ul>&nbsp;&nbsp;&nbsp; &gt; Coming Events &#x2F; Year planning;<br>&nbsp;&nbsp;&nbsp; &gt; Open Calls;<br><br># possible locations to do something:<br>&nbsp;&nbsp;&nbsp; - ISO (location in Amsterdam West) - have a party at March 16 or 17? Are open for an algorave&#x27;y proposal - via Giovanni<br>&nbsp;&nbsp;&nbsp; - Bajesdorp - Muiterij - Amsterdam Oost (near Spaklerweg) - self-organised space (go round with the hat for funding) - via Marije<br>&nbsp;&nbsp;&nbsp; - Algorave in Apeldoorn - skatepark&nbsp; Real-X. Or maybe venue Gigant (or both)<br>
+</body>
+</html>
