@@ -26,53 +26,15 @@ body{
 	/*background-color: #191919;*/
 }
 
-.style01 {
-	font-family: 'ABeeZee', sans-serif;
-	font-weight: bold;
-	font-size: 50vh;
-	color: black;
-/*	background-color: white;
-	margin: 1vh;
-	font-size: 50vh;
-	width: auto;
-	float:right;
-	position: absolute;
-	z-index: 1;
-*/
-	z-index: -10;
-	height: 60vh;
-	width: auto;
-	/* height: auto; */
-	display: inline-block;
-	overflow-y: hidden;
-	-webkit-animation-direction: normal;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-name: colours;
-	-webkit-animation-timing-function: ease;
-}
-
-@-webkit-keyframes colours {
-		0% {color: #ff3933;}
-		15% {color: #FFC300;}
-		30% {color: #3361ff;}
-		45% {color: #33ffb8;}
-		60% {color: #ee78fc;}
-		75% {color: #fc8c78;}
-		90% {color: #000000;}
-	100% {color: #808080;}
-}
-
 #info{
 	float: left;
 	margin-left: 5%;
-	position: fixed;
 	font-family: 'ABeeZee', sans-serif;
 	font-size: 12pt;
 	color: black;
 	height: 100%;
-	overflow-y: scroll;
-	z-index: 10;
+	/* overflow-y: scroll; */
+	/* z-index: 10; */
 }
 
 #info a{
@@ -85,25 +47,7 @@ body{
 
 #events {
 	margin-top: 10%;
-	width: 60%;
-}
-
-.twitter-timeline{
-	float: right;
-	margin-top: 2%;
-	margin-right: 5%;
-}
-
-@media only screen and (max-width: 768px){
-	#events{
-		width: 100%;
-	}
-	.style01{
-		font-size: 8vh;
-	}	
-	#twitter{
-		display: none;
-	}
+	width: 100%;
 }
 
 </style>
