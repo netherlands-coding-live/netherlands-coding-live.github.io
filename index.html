@@ -19,8 +19,6 @@
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
 
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -29,15 +27,20 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
 
-body{
-	height:100vh; /* This is needed to overcome a Chrome bug. */
-	width:100vh;  /* As above. */
-	/*background-color: #191919;*/
+@font-face {
+  font-family: "hngl";
+  src: url("https://github.com/JoBCB/netherlands-coding-live.github.io/blob/master/hngl.otf") format("otf");
 }
 
+body{
+height:100vh; /* This is needed to overcome a Chrome bug. */
+width: auto; 
+/*background-color: #191919;*/
+}
+	
 .style01 {
-    font-family: 'ABeeZee', sans-serif;
-    font-weight: bold;
+    font-family: 'hngl', sans-serif; /* 'ABeeZee' */    
+	font-weight: bold;
 	font-size: 50vh;
 	color: black;
 /*	background-color: white;
@@ -121,7 +124,8 @@ body{
 <body>
 <div id="info">
 	<div id="twitter">
-		<a class="twitter-timeline" data-width="250" data-height="650" href="https://twitter.com/NL_CodingLive?ref_src=twsrc%5Etfw"></a>
+		<a class="twitter-timeline" href="https://twitter.com/NL_CodingLive?ref_src=twsrc%5Etfw">Tweets by NL_CodingLive</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 	</div>
 
 	<p style="font-weight: bold; width: 60%">
