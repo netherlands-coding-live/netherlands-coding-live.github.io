@@ -30,9 +30,10 @@
 
 @font-face {
   font-family: "hngl";
-  src: url("https://github.com/JoBCB/netherlands-coding-live.github.io/blob/master/hngl.otf") format("otf");
+  src: url("https://github.com/netherlands-coding-live/netherlands-coding-live.github.io/blob/master/fonts/hngl.otf") format("otf");
 }
-
+/* not being able to serve the font, also tried: https://raw.githubusercontent.com/netherlands-coding-live/netherlands-coding-live.github.io/blob/master/fonts/hngl.otf */
+	
 body{
 height:100vh; /* This is needed to overcome a Chrome bug. */
 width: auto; 
@@ -40,7 +41,7 @@ width: auto;
 }
 	
 .style01 {
-  font-family: 'hngl', sans-serif; /* 'ABeeZee' */    
+  font-family: 'hngl', 'ABeeZee', sans-serif; 
 	font-weight: bold;
 	font-size: 50vh;
 	color: black;
