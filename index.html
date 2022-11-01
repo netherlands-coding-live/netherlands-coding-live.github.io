@@ -20,122 +20,7 @@
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<!-- CSS
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<style type="text/css">
-
-@import url('https://fonts.googleapis.com/css?family=ABeeZee');
-
-@font-face {
-  font-family: "hngl";
-  src: url("https://github.com/netherlands-coding-live/netherlands-coding-live.github.io/blob/master/fonts/hngl.otf") format("otf");
-}
-/* not being able to serve the font, also tried: https://raw.githubusercontent.com/netherlands-coding-live/netherlands-coding-live.github.io/blob/master/fonts/hngl.otf */
-	
-body{
-height:100vh; /* This is needed to overcome a Chrome bug. */
-width: auto; 
-/*background-color: #191919;*/
-}
-	
-.style01 {
-  font-family: 'hngl', 'ABeeZee', sans-serif; 
-	font-weight: bold;
-	font-size: 50vh;
-	color: black;
-/*	background-color: white;
-	margin: 1vh;
-	font-size: 50vh;
-	width: auto;
-    float:right;
-	position: absolute;
-	z-index: 1;
-*/
-	z-index: -10;
-	height: 60vh;
-	width: auto;
-	/* height: auto; */
-	display: inline-block;
-	overflow-y: hidden;
-	-webkit-animation-direction: normal;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-name: colours;
-	-webkit-animation-timing-function: ease;
-}
-
-@-webkit-keyframes colours {
-	  0% {color: #ff3933;}
-	 15% {color: #FFC300;}
-	 30% {color: #3361ff;}
-	 45% {color: #33ffb8;}
-	 60% {color: #ee78fc;}
-	 75% {color: #fc8c78;}
-	 90% {color: #000000;}
-	100% {color: #808080;}
-}
-
-#info{
-	float: left;
-	margin-left: 5%;
-	position: fixed;
-    font-family: 'ABeeZee', sans-serif;
-	font-size: 12pt;
-	color: black;
-	height: 100%;
-	overflow-y: scroll;
-	z-index: 10;
-}
-
-#info a{
-	margin-left: 5%;
-    font-family: 'ABeeZee', sans-serif;
-	text-decoration: none;
-	font-size: 12pt;
-	color: black;
-}
-
-#events {
-	float:none;
-	margin-top: 10%;
-	width: 60%;
-}
-
-#album {
-	margin-top: 5%;
-	width: 60%;
-}
-
-#radio {
-	margin-top: 10%;
-	width: 40%;
-}
-#twitter {
-	position: fixed;
-	width: 25%;
-    	right: 0;
-}
-.twitter-timeline{
-	position: fixed;
-	margin-top: 2%;
-	margin-right: 5%;
-}
-
-@media only screen and (max-width: 768px){
-	#events{
-    	width: 100%;
-	}
-	.style01{
-		font-size: 8vh;
-	}	
-	#twitter{
-		display: none;
-	}
-}
-
-</style>
+<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -157,13 +42,13 @@ width: auto;
 			<img src="media/nl_cl-live-zaal-100.gif" width="20%">
 		</p> -->
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1488370279/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nlcl.bandcamp.com/album/nl-cl-live-at-zaal-100">nl_cl Live at Zaal 100 by Netherlands Coding Live (nl_cl)</a></iframe>
-		<p>
+		<!-- <p>
 			Also available on:
 			<a style="font-weight:bold" href="https://open.spotify.com/album/603mbhEZcKPq0lb2lE7OnH?si=eBRMX2LHSde0LgdAacGoLw&dl_branch=1" target="blank">spotify</a>
 			<a style="font-weight:bold" href="https://music.apple.com/us/album/nl-cl-live-at-zaal-100/1588953698" target="blank">itunes</a>
 			<a style="font-weight:bold" href="https://music.youtube.com/playlist?list=OLAK5uy_kwvU_tE_pLfHyTRmxdE8Ye2JK_tQpjSYk" target="blank">youtube</a>
 			and more...
-		</p>
+		</p> -->
 		<p>
 			With live sets from: Craig Latta, Robert van Heumen, eerie_ear, Panda Zooicide, _t.mo and Jobi<br>
 			Album cover designed by: Joana Chicau
@@ -177,7 +62,7 @@ width: auto;
 
 	<p style="width: 60%"> Follow the latest updates, events and get in touch: 
 		<br>
-		<br><a style="font-size: 16pt; hover-text: red" href="https://toplap.lurk.org/c/communities/nl" target="_blank">* TOPLAP Forum *</a> (the best way to stay up-to-date)
+		<br><a style="font-size: 16pt; hover-text: red" href="https://forum.toplap.org/c/communities/nl" target="_blank">* TOPLAP Forum *</a> (the best way to stay up-to-date)
 		<br>
 		<br><a style="font-size: 16pt;" href="https://twitter.com/NL_CodingLive" target="_blank">* Twitter *</a>
 		<br>
@@ -190,7 +75,7 @@ width: auto;
 	</p>
 
 	<p style="width: 60%; font-size: 10pt;">
-		We like to keep our communication outside social media as much as possible. Please join the TOPLAP forum and set a watch on our <a style="width: 60%; font-size: 10pt;" href="https://toplap.lurk.org/c/communities/nl" target="_blank"> Livecode-nl thread</a>
+		We like to keep our communication outside social media as much as possible. Please join the TOPLAP forum and set a watch on our <a style="width: 60%; font-size: 10pt;" href="https://forum.toplap.org/c/communities/nl" target="_blank"> Livecode-nl thread</a>
 	</p>
 	<br>
 	<hr>
@@ -216,6 +101,12 @@ width: auto;
 
 	<!-- upcoming meetups/concerts listed here -->		
 	<!-- remove upcoming meetups to the past meetups list below -->
+	<h3 style="font-weight: bold;">
+		28.11.2022: "Live Coding Meet~up ☕️ 💻 ☕️" <a href="" target="blank">@T.B.A.</a>
+	</h3>
+	<p> Time: 19h30 - 22h00</p>
+	<p> Join us for our Monthly meet-up. Let's catch up on what everyone is currently working on and discuss plans for future events.</p>
+	<br>
 
 	<br>
 	<hr>
@@ -224,6 +115,13 @@ width: auto;
 	<h1>Past Meetups / Events ⌛️</h1>
 	<br>
 	<!-- copy-paste past meetups from above to here -->
+
+	<h3 style="font-weight: bold;">
+		31.10.2022: "Live Coding Meet~up ☕️ 💻 ☕️" <a href="https://instrumentinventors.org/" target="blank">@iii workspace, Willem Dreespark 312, The Hague</a>
+	</h3>
+	<p> Time: 19h30 - 22h00</p>
+	<p> Join us for our Monthly meet-up. Let's catch up on what everyone is currently working on and discuss plans for future events.</p>
+	<br>
 
 	<h3 style="font-weight: bold;">
 		01.04.2022: "NL_CL x CCU x Uncloud present: 10 Years of Algorave" <a href="https://ten.algorave.com/" target="blank">@Former Pieter Baan Centrum, Utrecht</a>
