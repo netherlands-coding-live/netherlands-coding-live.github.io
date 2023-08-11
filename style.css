@@ -12,6 +12,11 @@ body {
 	width: auto; 
 	background: black;
 	color: white;
+	/* color: rgb(200, 200, 200); */
+}
+
+p {
+	color: rgb(200, 200, 200);
 }
 	
 .style01 {
@@ -35,10 +40,11 @@ body {
 	display: inline-block;
 	overflow-y: hidden;
 	-webkit-animation-direction: normal;
-	-webkit-animation-duration: 10s;
+	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-name: colours;
 	-webkit-animation-timing-function: ease;
+	opacity: 0.6;
 }
 
 @-webkit-keyframes colours {
