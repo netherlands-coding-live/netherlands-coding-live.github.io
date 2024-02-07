@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Releases</title>
+
+		<style>
+			/* body { 
+				background: black;
+			} */
+
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+				grid-gap: 5px;
+				padding: 2px;
+				justify-content: space-around;
+				align-content: center;
+			}
+
+			.item {
+				position: relative;
+				padding: 0px;
+				margin: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="releases" class="grid"></div>
+		<script>
+
+			function addRelease(artist='', title='', year=2000, id='', url=''){
+				
+				return `
+					<div class="item" artist="${artist}" title=${title} year=${year}>
+						<iframe style="border: 0; width: 240px; height: 382px;" src="https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" seamless>
+							<a href="${url}">${title} by ${artist}</a>
+						</iframe>
+					</div>`
+			}
+
+			let div = document.getElementById('releases');
+			
+			div.innerHTML += addRelease('CNDSD', 'In Tongues', 2020, 2490779782, 'https://cndsd.bandcamp.com/album/in-tongues');
+
+			div.innerHTML += addRelease('parkellipsen', 'Pot-Jar', '', '3115166040', 'https://ellipsenpark.bandcamp.com/album/pot-jar');
+
+			div.innerHTML += addRelease('QBRNTHSS', 'The Magic Words Are Squeamish Ossifrage', 2020, '2678919413', 'https://interworldmedia.bandcamp.com/album/the-magic-words-are-squeamish-ossifrage');
+
+			div.innerHTML += addRelease('Pondskater', 'Way Out Ouest', 2020, '2036828160', 'https://pondskater-music.bandcamp.com/album/way-out-ouest');
+
+			// <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2036828160/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://pondskater-music.bandcamp.com/album/way-out-ouest">Way Out Ouest by Pondskater</a></iframe>
+
+			// Sorting method for different attributes in the div tag
+			function sortBy(field){
+				return function(a, b) {
+					a = a.getAttribute(field);
+					b = b.getAttribute(field);
+
+					if (a < b) { return -1; } 
+					if (a > b) { return 1; }
+					return 0; 
+				}
+			}
+
+			// Function sorting the releases
+			function SortData() { 
+				let toSort = document.getElementById('releases').children;
+
+				let subjects = Array.from(toSort);
+				let sorted = subjects.sort(sortBy('title'));
+				// let sorted = subjects.sort(sortBy('artist-name'));
+
+				var parent = document.getElementById('releases');
+				parent.innerHTML = "";
+
+				sorted.forEach((e) => {
+					parent.appendChild(e);
+				});
+			} 
+
+			// call the sorting method (should be a menu on top)
+			SortData();
+		</script>
+	</body>
+</html>
