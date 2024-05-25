@@ -32,18 +32,43 @@ When you are happy with the results you can also built and deploy the site to th
 
 Hugo builds the pages/posts from markdown (`.md`) files. The markdown syntax makes it very easy to add new pages without worrying to much about the actual layout.
 
-The actual layout is described in the `/layout` folder with `.html` files. The html files are generalized and content of it gets replaced based on the content of the markdown files. This is done in the build/deploy stage. So the output is a static site with only html pages. You can find a markdown guide in `/events/markdown-guide.md`
+The actual layout is described in the `/layout` folder with `.html` files. The html files are generalized and parts of it get replaced based on the content of the markdown files. This is done in the build/deploy stage. So the output is a static site with only html pages. You can find a markdown guide in `http://localhost:1313/events/markdown-guide` or on [this github gist](https://gist.github.com/cuonggt/9b7d08a597b167299f0d#file-markdown_guide-md).
 
 ### Add Event
 
-You can add your upcoming event as a markdown file in the `/events` folder. Create a file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
+You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
 
-```
+```markdown
 +++
 title = 'Your event title' (keep it short for best view)
 date = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
 draft = false (set this to true while developing and if you don't want to publish yet)
 +++
+```
+
+Now you can add the details for your event in the markdown file following this template:
+
+```markdown
+<!--Type a summary here-->
+
+A little summary of your event for on the main page.
+
+<!--Don't remover the "more" comment, this is important for rendering the summary on the main page!-->
+<!--more-->
+
+## [>> Go to Eventpage](https://link.to.eventpage)
+
+## Info
+
+- Doors: 00h00
+- Time: 00h00 - 00h00
+- Price: ?
+- Location: [Name, Adress, City](https://link.to.venue)
+
+## About
+
+Some more details like what is the event about and who are in the line-up
+
 ```
 
 ### Change Style
