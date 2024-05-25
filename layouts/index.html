@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<!-- <h1>About</h1> -->
+
+<p>
+	>Netherlands Coding Live aka "NL_CL" ~ a series of live coding sessions, discussions, workshops and a lot more organized by live coders based in The Netherlands.
+</p>
+<br/>
+
+<h1>Upcoming Events</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/events" }}
+	{{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+		<div class="post">
+			<p>
+				<div class="date">{{ .PublishDate.Format "Jan. 2, 2006 15:04" }}</div>
+				<h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+				{{ .Summary }}
+			</p>
+		</div>    
+	{{ end }}
+{{ end }}
+</div>
+
+<h1>Memories</h1>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/photos" }}
+	{{ range first 3 (sort .Data.Pages "Date" "desc")}}
+		<a href="{{ .Permalink }}" title="{{ .Title }}">
+		{{ $image := .Page.Resources.GetMatch .Params.image }}
+		{{ with $image }}
+			{{ $thumb := .Resize "600x" }}
+			<img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+		{{end}}
+		</a>
+	{{ end }}
+{{ end }}
+</div>
+
+{{ end }}

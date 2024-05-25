@@ -1,0 +1,26 @@
+baseURL = 'https://netherlands-coding-live.github.io'
+languageCode = 'en-us'
+title = 'NL_CL | Netherlands Coding Live'
+theme = 'hugo-theme-console'
+enableEmoji = true
+summaryLength = 20
+
+[params]
+  # custom_css = [ "css/customstyle.css" ]
+
+  # Cutting off the page title to a few 
+  # characters for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or 
+  # comment animationStyle parameter
+  # animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "community/"
+  url = "community/"
+
+  [[params.navlinks]]
+  name = "events/"
+  url = "events/"
