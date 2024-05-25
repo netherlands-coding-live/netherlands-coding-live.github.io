@@ -1,14 +1,10 @@
 +++
-title = "Markdown Guide"
-date = "2024-05-25"
+date = 2024-05-24T11:23:00+01:00
+title = 'Markdown Guide'
 draft = true
 +++
 
 <!-- from: https://gist.github.com/cuonggt/9b7d08a597b167299f0d#file-markdown_guide-md by https://gist.github.com/cuonggt -->
-
-# Markdown Guide
-
-![The Ultimate Guide to Markdown](http://blog.ghost.org/content/images/2015/03/markdown-guide-1.jpg)
 
 ## Basic Markdown Formatting
 
@@ -22,6 +18,18 @@ This text is a basic paragraph
     #### This is an <h4> tag
     ##### This is an <h5> tag
     ###### This is an <h6> tag
+
+# This is an h1 tag
+
+## This is an h2 tag
+
+### This is an h3 tag
+
+#### This is an h4 tag
+
+##### This is an h5 tag
+
+###### This is an h6 tag
     
 ### Emphasis
 

@@ -6,7 +6,7 @@ enableEmoji = true
 summaryLength = 20
 
 [params]
-  # custom_css = [ "css/customstyle.css" ]
+  custom_css = [ "css/customstyle.css" ]
 
   # Cutting off the page title to a few 
   # characters for mobile (console-demo -> co)
