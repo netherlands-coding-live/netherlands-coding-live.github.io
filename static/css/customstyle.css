@@ -11,24 +11,24 @@
 }
 
 .darkmode {
-    --background-color: rgb(10,10,10);
-    --global-font-color: rgb(240,240,240);
+    --background-color: rgb(15,15,15);
+    --global-font-color: rgb(230,230,230);
     --font-color: var(--global-font-color);
     --primary-color:  #fc8c78;
     --secondary-color: #33ffb8;
     --ternary-color: #ee78fc;
-    --error-color: #d20962;
+    --error-color: #ff3933;
     --code-bg-color: rgb(30, 30, 30);
 }
 
 .lightmode {
-    --background-color: rgb(240,240,240);
-    --global-font-color: rgb(10,10,10);
+    --background-color: rgb(230,230,230);
+    --global-font-color: rgb(15,15,15);
     --font-color: var(--global-font-color);
-    --primary-color: #33ffb8;
-    --secondary-color: #ee78fc;
-    --ternary-color: #ff3933;
-    --error-color: #d20962;
+    --primary-color: #ee78fc;
+    --secondary-color: #fc8c78;
+    --ternary-color: #33ffb8;
+    --error-color: #ff3933;
     --code-bg-color: rgb(210, 210, 210);
 }
 
