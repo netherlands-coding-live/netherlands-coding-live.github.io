@@ -24,3 +24,7 @@ summaryLength = 20
   [[params.navlinks]]
   name = "events/"
   url = "events/"
+
+  [[params.navlinks]]
+  name = "friends/"
+  url = "friends/"
