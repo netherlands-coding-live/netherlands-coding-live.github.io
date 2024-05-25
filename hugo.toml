@@ -18,12 +18,12 @@ summaryLength = 20
   # animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
-  name = "community/"
-  url = "community/"
-
-  [[params.navlinks]]
   name = "events/"
   url = "events/"
+
+  [[params.navlinks]]
+  name = "community/"
+  url = "community/"
 
   [[params.navlinks]]
   name = "friends/"

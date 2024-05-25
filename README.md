@@ -20,9 +20,13 @@ Now clone this repository to your computer:
 
 To run the server locally and develop for the site:
 
-`hugo server`
+`hugo server -D`
 
 Then go to: `localhost:1313` to view the website (or the port that is printed in the terminal)
+
+When you are happy with the results you can also built and deploy the site to the `/public` folder:
+
+`hugo`
 
 ## Usage
 
@@ -30,9 +34,27 @@ Hugo builds the pages/posts from markdown (`.md`) files. The markdown syntax mak
 
 The actual layout is described in the `/layout` folder with `.html` files. The html files are generalized and content of it gets replaced based on the content of the markdown files. This is done in the build/deploy stage. So the output is a static site with only html pages. You can find a markdown guide in `/events/markdown-guide.md`
 
-### Event
+### Add Event
 
-You can add your upcoming event as a markdown file in the `/events` folder. Please use this format for the filename `yyyy-mm-dd-shortname.md`. You can use a previous event as example to see how everything is formatted.
+You can add your upcoming event as a markdown file in the `/events` folder. Create a file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
+
+```
++++
+title = 'Your event title' (keep it short for best view)
+date = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
+draft = false (set this to true while developing and if you don't want to publish yet)
++++
+```
+
+### Change Style
+
+You can add additional styling to the `static/css/customstyle.css` file. If you want to use a style that is different between light and dark mode you can put it in the `.darkmode{ }` and `.lightmode{ }` class. If you want a style that can be refered to in multiple places use a variable name `--your-var-name:` in `:root{ }` and refer to the style in the correct places with `var(--your-var-name)`
+
+### Change Layout
+
+You can change the layout by adjust the files in `/layouts`. The `/_default/baseof.html` is the html every page is based on. The `/index.html` is the layout for the main page when you enter the site. The `/partials/footer.html` is the layout for the footer. If you want to adjust a layout of a page that is not there, then you can find it in the `/themes/<theme-name>/layouts`. 
+
+It is good practice to copy the file from the theme to the other `/layouts` folder and then adjust it there. This way your new layout wont get overwritten by an update to the theme.
 
 ## Contribute
 

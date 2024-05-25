@@ -1,13 +1,23 @@
 {{ define "main" }}
 
-<!-- <h1>About</h1> -->
+<div>
+	<p>
+		>Netherlands Coding Live aka "NL_CL" ~ a series of live coding sessions, discussions, workshops and a lot more organized by live coders based in The Netherlands.
+	</p>
+	
+	<h1>Join Us 👋</h1>
+	<p>
+		Follow the latest updates from our site, mastodon, instagram or get in touch:
 
-<p>
-	>Netherlands Coding Live aka "NL_CL" ~ a series of live coding sessions, discussions, workshops and a lot more organized by live coders based in The Netherlands.
-</p>
-<br/>
+		<br><br><a href="https://social.toplap.org/@nl_cl">* Mastodon *</a>
 
-<h1>Upcoming Events</h1>
+		<br><br><a href="https://instagram.com/nl_codinglive">* Instagram *</a>
+		
+		<br><br><a href="mailto:netherlands-coding-live@protonmail.com">* netherlands-coding-live [at] protonmail [dot] com *</a>
+	</p>
+</div>
+
+<h1>Upcoming Events 🗓</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/events" }}
@@ -23,7 +33,7 @@
 {{ end }}
 </div>
 
-<h1>Memories</h1>
+<h1>Memories 📸</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
