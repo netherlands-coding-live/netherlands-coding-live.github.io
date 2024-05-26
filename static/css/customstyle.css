@@ -7,7 +7,12 @@
 
     --global-font-size: 14pt;
 	--global-line-height: 1.4em;
-	--global-space: 24px;
+	--global-space: 14px;
+}
+
+.container {
+    padding-left: calc(var(--global-space) * 8) !important;
+    padding-right: calc(var(--global-space) * 8) !important;
 }
 
 .darkmode {
@@ -101,6 +106,11 @@ a {
         left: 0px;
         width: 80px;
         z-index: 400;
+    }
+
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
 
