@@ -1,4 +1,4 @@
-baseURL = 'https://home.hku.nl/~timo.hoogland/nlcl'
+baseURL = 'https://netherlands-coding-live.github.io'
 languageCode = 'en-us'
 title = 'NL_CL | Netherlands Coding Live'
 theme = 'hugo-theme-console'
