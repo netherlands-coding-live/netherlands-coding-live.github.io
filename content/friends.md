@@ -2,7 +2,7 @@
 title = 'Friends and Support 👫'
 +++
 
-NL_CL is very happy and grateful to have been able to work together with these amazing parties
+NL_CL is very happy and grateful to have been working together or have been funded by these amazing people and institutes:
 
 - [Creative Coding Utrecht](https://creativecodingutrecht.nl/")
 - [Instrument Inventors Initiative](https://instrumentinventors.org/")

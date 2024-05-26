@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+{{ partial "light-dark.html" }}
+
+{{ partial "nlcl-text.html" }}
+
 <div>
 	<p>
 		>Netherlands Coding Live aka "NL_CL" ~ a series of live coding sessions, discussions, workshops and a lot more organized by live coders based in The Netherlands.
@@ -17,7 +21,7 @@
 	</p>
 </div>
 
-<h1>Upcoming Events 🗓</h1>
+<h1>Events 🎉</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/events" }}

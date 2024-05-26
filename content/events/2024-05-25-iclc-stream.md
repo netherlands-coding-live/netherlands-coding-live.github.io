@@ -2,11 +2,10 @@
 title = 'ICLC 2024 Satellite Livestream'
 date = 2024-05-25T06:00:00+01:00
 +++
-<!-- publishDate = 2024-05-25 -->
 
 <!--summary-->
 
-TOPLAP will host streaming live coding in May as an ICLC 2024 Satellite Event.
+@live.eulerroom.com. TOPLAP will host streaming live coding in May as an ICLC 2024 Satellite Event.
 
 <!--more-->
 

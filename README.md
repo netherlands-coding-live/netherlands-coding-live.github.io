@@ -42,7 +42,6 @@ You can add your upcoming event as a markdown file in the `/events` folder. Crea
 +++
 title = 'Your event title' (keep it short for best view)
 date = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
-publishDate = 'yyyy-mm-dd' (set this to the current date in order for the page to be rendered)
 draft = false (set this to true while developing and if you don't want to publish yet)
 +++
 ```
@@ -52,7 +51,7 @@ Now you can add the details for your event in the markdown file following this t
 ```markdown
 <!--Type a summary here-->
 
-A little summary of your event for on the main page.
+@the location. A little summary of your event for on the main page.
 
 <!--Don't remover the "more" comment, this is important for rendering the summary on the main page!-->
 <!--more-->

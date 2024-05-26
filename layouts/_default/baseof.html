@@ -53,11 +53,6 @@
         </div>
     </div>
 
-    <!-- some code that selects the darkmode -->
-    <script>
-      document.documentElement.className = 'darkmode';
-    </script>
-
     <div class="container {{ .Site.Params.animateStyle }}" >
         {{ block "main" . }}
         {{ end }}
