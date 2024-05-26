@@ -11,7 +11,7 @@ NL_CL is very happy and grateful to have been able to work together with these a
 - [TOPLAP Barcelona](https://toplap.cat/")
 - [TOPLAP Karlsruhe](https://toplap-ka.de/")
 - [Ljudmila Ljubljana](https://www.culture.si/en/Ljudmila_Art_and_Science_Laboratory")
-- [TOPLAP.org (The Whole International Community)](https://toplap.org)
+- [TOPLAP.org (the international community)](https://toplap.org)
 - [Fiber](https://www.fiber-space.nl/")
 - [Gaudeamus](https://gaudeamus.nl/")
 - [Creative Industries Fund NL](https://www.stimuleringsfonds.nl/")

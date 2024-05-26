@@ -26,5 +26,9 @@ summaryLength = 20
   url = "community/"
 
   [[params.navlinks]]
+  name = "our works/"
+  url = "works/"
+
+  [[params.navlinks]]
   name = "friends/"
   url = "friends/"

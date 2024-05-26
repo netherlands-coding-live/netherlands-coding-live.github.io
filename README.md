@@ -38,10 +38,11 @@ The actual layout is described in the `/layout` folder with `.html` files. The h
 
 You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
 
-```markdown
+```
 +++
 title = 'Your event title' (keep it short for best view)
 date = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
+publishDate = 'yyyy-mm-dd' (set this to the current date in order for the page to be rendered)
 draft = false (set this to true while developing and if you don't want to publish yet)
 +++
 ```
@@ -56,7 +57,7 @@ A little summary of your event for on the main page.
 <!--Don't remover the "more" comment, this is important for rendering the summary on the main page!-->
 <!--more-->
 
-## [>> Go to Eventpage](https://link.to.eventpage)
+### [>> Go to Eventpage](https://link.to.eventpage)
 
 ## Info
 
