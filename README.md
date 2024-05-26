@@ -71,6 +71,20 @@ Some more details like what is the event about and who are in the line-up
 
 ```
 
+### Embed
+
+If you like to embed some item from another webpage, for example a youtube video, you can use the hugo `shortcode`s. The shortcode for a youtube video is: `{{< youtube video-ID >}}`. You can put this in the markdown file and it will generate the necessary html code (using `<iframe>` etc). The markdown will look like this:
+
+```markdown
+# The ICLC 2023 Aftermovie
+
+This is the aftermovie from the International Conference on Live Coding 2023 in Utrecht.
+
+{{< youtube IDehg9Wbrws >}}
+```
+
+You can find other shortcodes such as `gist`, `vimeo`, `twitter`, `instagram` or read on how to make your own shortcodes in the [Hugo Documentation](https://gohugo.io/content-management/shortcodes/).
+
 ### Change Style
 
 You can add additional styling to the `static/css/customstyle.css` file. If you want to use a style that is different between light and dark mode you can put it in the `.darkmode{ }` and `.lightmode{ }` class. If you want a style that can be refered to in multiple places use a variable name `--your-var-name:` in `:root{ }` and refer to the style in the correct places with `var(--your-var-name)`
