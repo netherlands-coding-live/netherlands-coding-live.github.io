@@ -53,6 +53,8 @@
         </div>
     </div>
 
+    {{ partial "light-dark.html" }}
+
     <div class="container {{ .Site.Params.animateStyle }}" >
         {{ block "main" . }}
         {{ end }}

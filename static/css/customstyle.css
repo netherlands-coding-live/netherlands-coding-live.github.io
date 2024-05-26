@@ -25,7 +25,9 @@
     --background-color: rgb(230,230,230);
     --global-font-color: rgb(15,15,15);
     --font-color: var(--global-font-color);
-    --primary-color: #ee78fc;
+    --primary-color: #3361ff;
+    /* --primary-color: #ee78fc; */
+    /* --secondary-color: #ff3933; */
     --secondary-color: #fc8c78;
     --ternary-color: #33ffb8;
     --error-color: #ff3933;
