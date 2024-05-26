@@ -1,9 +1,10 @@
-baseURL = 'https://netherlands-coding-live.github.io'
+baseURL = 'https://home.hku.nl/~timo.hoogland/nlcl'
 languageCode = 'en-us'
 title = 'NL_CL | Netherlands Coding Live'
 theme = 'hugo-theme-console'
 enableEmoji = true
 summaryLength = 20
+buildFuture = true
 
 [params]
   custom_css = [ "css/customstyle.css" ]

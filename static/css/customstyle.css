@@ -77,6 +77,22 @@ a {
     font-weight: bold;
 }
 
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    border-width: 0;
+    /* width: 5%; */
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
 .terminal-menu:hover{
     color : var(--ternary-color)
 }
