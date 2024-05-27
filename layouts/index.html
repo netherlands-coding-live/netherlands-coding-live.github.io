@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+{{ partial "nlcl-text.html" }}
+
+<div>
+	<p>
+		>Netherlands Coding Live aka "NL_CL" ~ a series of live coding sessions, discussions, workshops and a lot more organized by live coders based in The Netherlands.
+	</p>
+	
+	<h1>Join Us 👋</h1>
+	<p>
+		Follow the latest updates from our site, mastodon, instagram or get in touch:
+
+		<br><br><a href="https://social.toplap.org/@nl_cl">* Mastodon *</a>
+
+		<br><br><a href="https://instagram.com/nl_codinglive">* Instagram *</a>
+		
+		<br><br><a href="mailto:netherlands-coding-live@protonmail.com">* netherlands-coding-live [at] protonmail [dot] com *</a>
+	</p>
+</div>
+
+<h1>Events 🎉</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/events" }}
+	{{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+		<div class="post">
+			<p>
+				<div class="date">{{ .PublishDate.Format "Jan. 2, 2006 15:04" }}</div>
+				<h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+				{{ .Summary }}
+			</p>
+		</div>    
+	{{ end }}
+{{ end }}
+	<div class="post">
+		<p>
+			<h2><a href="events">more...</a></h2>
+		</p>
+	</div>
+</div>
+
+<h1>Memories 📸</h1>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/photos" }}
+	{{ range first 6 (sort .Data.Pages "Date" "desc")}}
+		<a href="{{ .Permalink }}" title="{{ .Title }}">
+		{{ $image := .Page.Resources.GetMatch .Params.image }}
+		{{ with $image }}
+			{{ $thumb := .Fill "500x500 jpeg q80" }}
+			<img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+		{{end}}
+		</a>
+	{{ end }}
+{{ end }}
+</div>
+
+{{ end }}

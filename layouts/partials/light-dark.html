@@ -1,0 +1,29 @@
+<!-- button for light/dark mode switch -->
+<div class="container" style="text-align: right;">
+	<button id="mode"></button><br><br>
+	<script>
+		// Custom function to switch light and dark theme 
+		// from customstyle.css. Default mode is dark
+
+		// check if setting is already in local storage and store
+		if (!localStorage.getItem('mode')){
+			localStorage.setItem('mode', 'darkmode');
+		}
+		let mode = localStorage.getItem('mode');
+		// get the button and set the content
+		let b = document.getElementById('mode');
+		setMode(b, mode);
+		// add the onclick function to allow switching
+		b.onclick = () => {
+			let mode = localStorage.getItem('mode');
+			mode = (mode === 'darkmode') ? 'lightmode' : 'darkmode';
+			setMode(b, mode);
+		}
+		// set mode changes the text in the button and classname
+		function setMode(b, m) {
+			localStorage.setItem('mode', m);
+			b.innerHTML = (m === 'darkmode') ? 'light' : 'dark';
+			document.documentElement.className = m;
+		}
+	</script>
+</div>

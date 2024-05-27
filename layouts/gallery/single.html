@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+
+{{ .Content }}
+{{ template "_internal/disqus.html" . }}
+
+{{ range .Page.Resources.ByType "image" }}
+	{{ $thumb := .Resize "1920x jpeg q80" }}
+    {{ printf `<img src="%s" alt="%s" width="100%" class="img-responsive gallery-image">` $thumb.RelPermalink .Title | safeHTML }}
+
+	<!-- <img src="{{ $thumb.RelPermalink }}" width="100%" class="img-responsive" alt=""> -->
+    {{ end }}
+{{ end }}
