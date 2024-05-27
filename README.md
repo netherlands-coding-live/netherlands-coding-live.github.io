@@ -20,7 +20,7 @@ Now clone this repository to your computer:
 
 To run the server locally and develop for the site:
 
-`hugo server -D`
+`hugo server -F -D`
 
 Then go to: `localhost:1313` to view the website (or the port that is printed in the terminal)
 
@@ -94,6 +94,14 @@ You can add additional styling to the `static/css/customstyle.css` file. If you 
 You can change the layout by adjust the files in `/layouts`. The `/_default/baseof.html` is the html every page is based on. The `/index.html` is the layout for the main page when you enter the site. The `/partials/footer.html` is the layout for the footer. If you want to adjust a layout of a page that is not there, then you can find it in the `/themes/<theme-name>/layouts`. 
 
 It is good practice to copy the file from the theme to the other `/layouts` folder and then adjust it there. This way your new layout wont get overwritten by an update to the theme.
+
+## Deploy to Github Pages
+
+A `workflow` for automatic building and deployment to github pages can be found [in the Hugo documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
+
+Add the content from the documentation to a new file called `.github/workflows/hugo.yaml` (this is currently already done for this website)
+
+If you can't push the new workflow to github you might need to have the correct credentials and scope. Log in through the terminal with `gh auth login --scopes workflow` (if you don't have Github CLI, first run `brew install gh`)
 
 ## Contribute
 

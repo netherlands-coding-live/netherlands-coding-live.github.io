@@ -33,17 +33,22 @@
 		</div>    
 	{{ end }}
 {{ end }}
+	<div class="post">
+		<p>
+			<h2><a href="events">more...</a></h2>
+		</p>
+	</div>
 </div>
 
 <h1>Memories 📸</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
-	{{ range first 3 (sort .Data.Pages "Date" "desc")}}
+	{{ range first 6 (sort .Data.Pages "Date" "desc")}}
 		<a href="{{ .Permalink }}" title="{{ .Title }}">
 		{{ $image := .Page.Resources.GetMatch .Params.image }}
 		{{ with $image }}
-			{{ $thumb := .Resize "600x" }}
+			{{ $thumb := .Fill "500x500 jpeg q80" }}
 			<img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
 		{{end}}
 		</a>
