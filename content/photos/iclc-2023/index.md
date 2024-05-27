@@ -1,6 +1,6 @@
 +++
 image = "52845572535_d7c28336b2_k_converted.jpg"
-date = "2024-04-19"
+date = "2023-04-19"
 title = "ICLC 2023"
 type = "gallery"
 +++
