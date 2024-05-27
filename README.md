@@ -26,7 +26,7 @@ Then go to: `localhost:1313` to view the website (or the port that is printed in
 
 When you are happy with the results you can also built and deploy the site to the `/public` folder:
 
-`hugo`
+`hugo --cleanDestinationDir`
 
 ## Usage
 
@@ -94,6 +94,38 @@ You can add additional styling to the `static/css/customstyle.css` file. If you 
 You can change the layout by adjust the files in `/layouts`. The `/_default/baseof.html` is the html every page is based on. The `/index.html` is the layout for the main page when you enter the site. The `/partials/footer.html` is the layout for the footer. If you want to adjust a layout of a page that is not there, then you can find it in the `/themes/<theme-name>/layouts`. 
 
 It is good practice to copy the file from the theme to the other `/layouts` folder and then adjust it there. This way your new layout wont get overwritten by an update to the theme.
+
+## Add Gallery
+
+If you like to add some photos to the Gallery you can do the following:
+
+1. Create a folder in `/content/photos` and name the folder appropriately (for example the event name where the pictures were taken).
+2. Add all the pictures you like to include. **Please reduce the filesize as much as possible to < 500kB**! (eg. 1920x1080 pixels, JPEG, quality=80 is usually okay)
+3. Add an `index.md` to the folder (you can copy one from the other folders) and add some info for the page. Below is the template:
+
+```markdown
++++
+image = "name-of-image-for-display-on-homepage.jpg"
+date = "yyyy-mm-dd"
+title = "Name of the Event"
+type = "gallery"
++++
+
+Date: day Month year
+
+Location: Venue name, City
+
+Photos by: [Photographer](https://photographer.website.nl/)
+
+<!-- More pictures on []() -->
+<!-- Optional in case you host more pictures on for example Flickr or some other place -->
+
+## About
+
+Some text about the event
+```
+
+4. You don't have to add pictures to the index.md, they will automatically be rendered if they are in the correct folder.
 
 ## Deploy to Github Pages
 
