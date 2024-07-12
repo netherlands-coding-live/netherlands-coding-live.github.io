@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div>
     <h1>{{ .Page.Title }}</h1>
-    <a href="#">+ Subscribe to calendar</a>
+    
+    <!--TODO: dynamicially generate WEBCAL-URL for calendar.ics-file-->
+    <a href="webcal://netherlands-coding-live.github.io/events/calendar.ics">+ Subscribe to calendar</a>
 </div>
 <br/>
 {{ .Content }}
