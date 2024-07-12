@@ -154,6 +154,23 @@ button:hover {
 	opacity: 0.2;
 }
 
+.event-info > ul{
+    margin: 0em;
+    margin-bottom: 2em;
+}
+
+.event-info  h1, h2, h3, h4, h5, h6{
+    margin: 0.75em 0;
+}
+
+.event-links > *{
+    margin-bottom: -0.5em;
+}
+.event-links { 
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
 @media only screen and (max-width: 850px) {
     .bgLogo {
         font-size: 14vh;
