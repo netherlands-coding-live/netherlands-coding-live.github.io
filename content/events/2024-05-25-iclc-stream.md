@@ -4,7 +4,7 @@ description = '@live.eulerroom.com. TOPLAP will host streaming live coding in Ma
 eventpage = 'https://live.eulerroom.com'
 start = 2024-05-25T18:00:00+01:00
 end = 2024-05-26T03:00:00+01:00
-location = "https://live.eulerroom.com"
+location = "[https://live.eulerroom.com](https://live.eulerroom.com/)"
 +++
 
 
