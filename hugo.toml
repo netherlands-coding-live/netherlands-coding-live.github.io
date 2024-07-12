@@ -33,3 +33,19 @@ buildFuture = true
   [[params.navlinks]]
   name = "works/"
   url = "works/"
+
+[mediaTypes]
+  [mediaTypes.'text/calendar']
+    suffixes = ['ics']
+
+[outputFormats]
+  [outputFormats.calendar]
+    baseName = 'events'
+    isPlainText = true
+    mediaType = 'text/calendar'
+    protocol = 'webcal://'
+
+[outputs]
+  home = ["HTML", "ics"]
+  section = ["HTML", "ics"]
+  page = ["HTML", "rss", "ics"]

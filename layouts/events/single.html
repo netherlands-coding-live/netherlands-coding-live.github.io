@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>{{ .Summary }}</p>
+{{ if .Params.eventpage }}<h3><a href="{{ .Params.eventpage }}"> » Go to eventpage</a></h3>{{end}}
+<h2>Info</h2>
+{{ $format := "2 Jan 2006" }}
+{{ $timeFormat := "15:04"}}
+<ul>
+  {{ if .Params.start }}<li>Date: {{ .Params.start.Format $format }}</li>{{ end }}
+  {{ if .Params.doors }}<li>Doors: {{ .Params.doors.Format $timeFormat }}</li>{{ end }}
+  {{ if .Params.start }}<li>Time: {{ .Params.start.Format $timeFormat}} {{ if .Params.end }}- {{ .Params.end.Format $timeFormat}}{{ end }}</li>{{ end }}
+  {{ if .Params.price }}<li>Price: {{ .Params.price}} </li>{{ end }}
+  {{ if .Params.location }}<li>Location: {{ .Params.location}} </li>{{ end }}
+</ul>
+{{ .Content }}
+
+{{ end }}
