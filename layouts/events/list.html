@@ -9,7 +9,7 @@
             <p>
                 <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div>    
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
+                {{ .Description }}
             </p>
         </div>
     {{ end }}

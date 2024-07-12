@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<p>{{ .Summary }}</p>
+<p>{{ .Description }}</p>
 {{ if .Params.eventpage }}<h3><a href="{{ .Params.eventpage }}"> » Go to eventpage</a></h3>{{end}}
 <h2>Info</h2>
 {{ $format := "2 Jan 2006" }}
