@@ -35,6 +35,7 @@ buildFuture = true
     baseName = 'calendar'
     isPlainText = true
     mediaType = 'text/calendar'
+    permalinkable = true
     protocol = 'webcal://'
 
 [outputs]
