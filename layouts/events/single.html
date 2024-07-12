@@ -5,7 +5,10 @@
   {{ .Params.links | markdownify }}
 </div>
 <div class="event-info">
-  <h2>Info</h2>
+  <div class="event-info-header">
+    <h2>Info </h2>
+    <a style="font-size: .9rem"href="{{ .RelPermalink }}calendar.ics">+ Add to calendar</a>
+  </div>
   <ul>
     {{ $format := "2 Jan 2006" }}
     {{ $timeFormat := "15:04"}} 

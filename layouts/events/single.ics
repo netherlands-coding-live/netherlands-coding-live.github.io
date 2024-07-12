@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NETHERLANDS CODING LIVE//event calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+{{range .Pages -}}
+BEGIN:VEVENT
+ORGANIZER;CN="Netherlands Coding Live":mailto:netherlands-coding-live@protonmail.com
+SUMMARY:{{.Description}}
+UID:{{.Permalink}}
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTART:{{dateFormat "20060102T150405" .Params.start}}
+DTEND:{{dateFormat "20060102T150405" .Params.end}}
+LOCATION:{{.Params.location}}
+URL:{{.Permalink}}
+END:VEVENT
+{{end -}}
+END:VCALENDAR
