@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div>
+<div style="margin-bottom: 2em">
     <h1>{{ .Page.Title }}</h1>
     
     <!--TODO: dynamicially generate WEBCAL-URL for calendar.ics-file-->
@@ -11,11 +11,12 @@
 {{ range sort .Data.Pages ".Params.start" "desc" }}
     {{ if not .Params.private }}
         <div class="post">
-            <p>
-                <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div>    
+            <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div> 
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Description }}
-            </p>
+                
+
+            {{ .Description }}
+            <a class="download-ics-btn" href="{{ .Page.RelPermalink }}calendar.ics">+ Add to calendar</a>
         </div>
     {{ end }}
 {{ end }}

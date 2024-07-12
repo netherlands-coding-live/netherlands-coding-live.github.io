@@ -77,6 +77,10 @@ a {
     font-weight: bold;
 }
 
+.post {
+    margin-bottom: 3em;
+}
+
 button {
     font-family: inherit;
     font-size: 1rem;
@@ -100,6 +104,7 @@ button:hover {
 .terminal-prompt::after{
     background-color: var(--secondary-color);
 }
+
 
 @media only screen and (max-width: 850px) {
     .site-name {
@@ -175,6 +180,18 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.download-ics-btn {
+    margin-top: 1em;
+    font-size: .9rem;
+    display: block;
+    width: 14.5ch;
+    opacity: 0.75;
+}
+
+.download-ics-btn:hover {
+    opacity: 1;
 }
 
 @media only screen and (max-width: 850px) {
