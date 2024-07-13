@@ -1,9 +1,13 @@
 {{ define "main" }}
-<div style="margin-bottom: 2em">
+<div class="event-list-header">
     <h1>{{ .Page.Title }}</h1>
     
     <!--TODO: dynamicially generate WEBCAL-URL for calendar.ics-file-->
-    <a href="webcal://netherlands-coding-live.github.io/events/calendar.ics">+ Subscribe to calendar</a>
+    {{ with .OutputFormats.Get "calendar" }}
+    <a class="small-link" href="{{ .Permalink | safeURL}}">+ Subscribe to calendar</a>
+    {{ end }}
+    
+    
 </div>
 <br/>
 {{ .Content }}
@@ -12,11 +16,12 @@
     {{ if not .Params.private }}
         <div class="post">
             <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div> 
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                
-
-            {{ .Description }}
-            <a class="download-ics-btn" href="{{ .Page.RelPermalink }}calendar.ics">+ Add to calendar</a>
+                <h1><a href={{ .Permalink }} title="{{ .Title }}">{{ .Title }}</a></h1>
+                <a class="link-secondairy" title="{{ .Title }}">{{ .Description }}</a>
+            
+            {{ with .OutputFormats.Get "calendar" }}
+            <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
+            {{ end }}
         </div>
     {{ end }}
 {{ end }}
