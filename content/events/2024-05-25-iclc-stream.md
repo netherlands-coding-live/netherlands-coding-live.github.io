@@ -2,8 +2,8 @@
 title = 'ICLC 2024 Satellite Livestream'
 description = '@live.eulerroom.com. TOPLAP will host streaming live coding in May as an ICLC 2024 Satellite Event.'
 links = """
-  ## [» Go to eventpage ](https://live.eulerroom.com/)
-  ## [» Sign-up for playing](https://eulerroom.com/)
+  ### [» Go to eventpage ](https://live.eulerroom.com/)
+  ### [» Sign-up for playing](https://eulerroom.com/)
 """
 start = 2024-05-25T18:00:00+01:00
 end = 2024-05-26T03:00:00+01:00

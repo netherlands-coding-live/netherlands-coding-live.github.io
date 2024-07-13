@@ -38,33 +38,28 @@ The actual layout is described in the `/layout` folder with `.html` files. The h
 
 You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
 
-```
+``````markdown
 +++
-title = 'Your event title' (keep it short for best view)
-date = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
+title = 'Your event title' (keep it short for best view)'
+description = '@the location. A little summary of your event for on the main page.'
+links = """
+### [>> Go to Eventpage](https://link.to.eventpage)
+"""
+start = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
+end = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and end time of the event, add the timezone offset too with +00:00)
+doors = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and door opening time of the event, add the timezone offset too with +00:00)
+price = '?'
+location = "[Name of venue](https://www.openstreetmap.org/maps/link/here)"
 draft = false (set this to true while developing and if you don't want to publish yet)
 +++
-```
+``````
+
 
 Now you can add the details for your event in the markdown file following this template:
 
 ```markdown
-<!--Type a summary here-->
-
-@the location. A little summary of your event for on the main page.
-
 <!--Don't remover the "more" comment, this is important for rendering the summary on the main page!-->
 <!--more-->
-
-### [>> Go to Eventpage](https://link.to.eventpage)
-
-## Info
-
-- Doors: 00h00
-- Time: 00h00 - 00h00
-- Price: ?
-- Location: [Name, Adress, City](https://link.to.venue)
-
 ## About
 
 Some more details like what is the event about and who are in the line-up
