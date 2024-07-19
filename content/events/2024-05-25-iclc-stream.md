@@ -6,6 +6,7 @@ links = """
   ### [» Sign-up for playing](https://eulerroom.com/)
 """
 start = 2024-05-25T18:00:00+01:00
+doors = 2024-05-25T18:00:00+01:00
 end = 2024-05-26T03:00:00+01:00
 location = "[https://live.eulerroom.com](https://live.eulerroom.com/)"
 +++

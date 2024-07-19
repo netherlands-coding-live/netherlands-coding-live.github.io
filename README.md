@@ -36,24 +36,26 @@ The actual layout is described in the `/layout` folder with `.html` files. The h
 
 ### Add Event
 
-You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
+You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following (please note the `'`, these are important!):
 
-``````markdown
+```markdown
 +++
-title = 'Your event title' (keep it short for best view)'
-description = '@the location. A little summary of your event for on the main page.'
+title 		= 'Your event title' (keep it short for best view)'
+description = '@location. A short summary of your event for on the main page.'
+
+start 	 = yyyy-mm-dd:hh:mm:ss+01:00 (set the date and start time of the event, add the timezone offset too with +01:00)
+end 	 = yyyy-mm-dd:hh:mm:ss+01:00 (set the date and end time of the event, add the timezone offset too with +01:00)
+doors 	 = yyyy-mm-dd:hh:mm:ss+01:00 (optional, set the date and door opening time of the event, add the timezone offset too with +01:00)
+price 	 = '€?' (optional, set a price for the event)
+location = '[Name of venue, addres, city, NL](https://www.openstreetmap.org/maps/link/here)'
+
 links = """
 ### [>> Go to Eventpage](https://link.to.eventpage)
 """
-start = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
-end = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and end time of the event, add the timezone offset too with +00:00)
-doors = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and door opening time of the event, add the timezone offset too with +00:00)
-price = '?'
-location = "[Name of venue](https://www.openstreetmap.org/maps/link/here)"
+
 draft = false (set this to true while developing and if you don't want to publish yet)
 +++
-``````
-
+```
 
 Now you can add the details for your event in the markdown file following this template:
 
@@ -63,7 +65,6 @@ Now you can add the details for your event in the markdown file following this t
 ## About
 
 Some more details like what is the event about and who are in the line-up
-
 ```
 
 ### Embed

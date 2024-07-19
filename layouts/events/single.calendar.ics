@@ -5,14 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 ORGANIZER;CN="Netherlands Coding Live":mailto:netherlands-coding-live@protonmail.com
-SUMMARY:{{.Title}}
-DESCRIPTION: {{.Description}}
-UID:{{.Permalink}}
+SUMMARY:{{ .Title }}
+DESCRIPTION:{{ .Description }}\n\n
+	doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}{{ else }}{{ dateFormat "15:04" .Params.start}}{{ end }} \n
+	start: {{ dateFormat "15:04" .Params.start }} \n
+	end: {{ dateFormat "15:04" .Params.end }} \n
+	price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }} \n\n
+	location: {{ .Params.location | markdownify }} 
+UID:{{ .Permalink }}
 SEQUENCE:0
 STATUS:CONFIRMED
-DTSTART:{{dateFormat "20060102T150405" .Params.start}}
-DTEND:{{dateFormat "20060102T150405" .Params.end}}
-LOCATION:{{.Params.location | markdownify | plainify}}
-URL:{{.Permalink}}
+DTSTART:{{ dateFormat "20060102T150405" .Params.start }}
+DTEND:{{ dateFormat "20060102T150405" .Params.end }}
+LOCATION:{{ .Params.location | markdownify | plainify }}
+URL:{{ .Permalink }}
 END:VEVENT
 END:VCALENDAR
