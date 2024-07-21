@@ -1,8 +1,8 @@
 +++
-title       = 'ICLC 2024 Satellite Livestream'
-description = '@live.eulerroom.com. TOPLAP will host streaming live coding in May as an ICLC 2024 Satellite Event.'
+title       = "ICLC 2024 Satellite Livestream"
+description = "@live.eulerroom.com. TOPLAP will host streaming live coding in May as an ICLC 2024 Satellite Event."
 
-location    = '[https://live.eulerroom.com](https://live.eulerroom.com/)'
+location    = "[https://live.eulerroom.com](https://live.eulerroom.com/)"
 doors       = 2024-05-25T18:00:00+01:00
 start       = 2024-05-25T18:00:00+01:00
 end         = 2024-05-26T03:00:00+01:00
