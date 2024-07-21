@@ -40,8 +40,7 @@ buildFuture = true
 
 [outputs]
   home = ["HTML", "ics"]
-  section = ["HTML", "Calendar"]
+  section = ["HTML", "Calendar", "rss"]
   page = ["HTML", "rss","Calendar"]
-  list = ["HTML", "rss",]
-  event = ["HTML", "rss", "Calendar"]
-  single = ["HTML", "rss", "Calendar"]
+
+ 

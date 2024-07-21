@@ -43,9 +43,9 @@ You can add your upcoming event as a markdown file in the `/events` folder. Crea
 title 		= 'Your event title' (keep it short for best view)'
 description = '@location. A short summary of your event for on the main page.'
 
-start 	 = yyyy-mm-dd:hh:mm:ss+01:00 (set the date and start time of the event, add the timezone offset too with +01:00)
-end 	 = yyyy-mm-dd:hh:mm:ss+01:00 (set the date and end time of the event, add the timezone offset too with +01:00)
-doors 	 = yyyy-mm-dd:hh:mm:ss+01:00 (optional, set the date and door opening time of the event, add the timezone offset too with +01:00)
+start 	 = yyyy-mm-dd:hh:mm:ss+01:00 (set the date and start time, add the timezone with +01:00)
+end 	 = yyyy-mm-dd:hh:mm:ss+01:00 (set the date and end time, add the timezone with +01:00)
+doors 	 = yyyy-mm-dd:hh:mm:ss+01:00 (optional, set the date and door opening time, add the timezone with +01:00)
 price 	 = '€?' (optional, set a price for the event)
 location = '[Name of venue, addres, city, NL](https://www.openstreetmap.org/maps/link/here)'
 

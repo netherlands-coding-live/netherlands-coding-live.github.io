@@ -17,7 +17,8 @@
         <div class="post">
             <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div> 
                 <h1><a href={{ .Permalink }} title="{{ .Title }}">{{ .Title }}</a></h1>
-                <a class="link-secondairy" title="{{ .Title }}">{{ .Description }}</a>
+                {{ .Description }}
+                <!-- <a class="link-secondairy" title="{{ .Title }}">{{ .Description }}</a> -->
             
             {{ with .OutputFormats.Get "calendar" }}
             <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>

@@ -12,12 +12,12 @@ DESCRIPTION:{{ .Description }}\n\n
 	end: {{ dateFormat "15:04" .Params.end }} \n
 	price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }} \n\n
 	location: {{ .Params.location | markdownify }} 
-UID:{{ .Permalink }}
+UID:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
 SEQUENCE:0
 STATUS:CONFIRMED
 DTSTART:{{ dateFormat "20060102T150405" .Params.start }}
 DTEND:{{ dateFormat "20060102T150405" .Params.end }}
 LOCATION:{{ .Params.location | markdownify | plainify }}
-URL:{{ .Permalink }}
+URL:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
 END:VEVENT
 END:VCALENDAR
