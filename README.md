@@ -60,11 +60,15 @@ draft = false (set this to true while developing and if you don't want to publis
 Now you can add the details for your event in the markdown file following this template:
 
 ```markdown
-<!--Don't remover the "more" comment, this is important for rendering the summary on the main page!-->
-<!--more-->
 ## About
 
 Some more details like what is the event about and who are in the line-up
+
+## More headers
+
+More text that you want to add
+
+{{< optional embeddings like youtube vids (read below) >}}
 ```
 
 ### Embed

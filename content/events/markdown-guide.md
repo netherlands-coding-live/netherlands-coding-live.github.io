@@ -1,12 +1,12 @@
 +++
-title = 'Markdown Guide'
+title       = 'Markdown Guide'
 description = 'The markdown guide is not a meetup'
 
-location = 'World Wide Web'
-start = 2024-05-24T11:23:00+01:00
-end = 2024-05-24T11:23:30+01:00
+location    = 'World Wide Web'
+start       = 2024-05-24T11:23:00+01:00
+end         = 2024-05-24T11:23:30+01:00
 
-draft = true
+draft       = true
 +++
 
 <!-- from: https://gist.github.com/cuonggt/9b7d08a597b167299f0d#file-markdown_guide-md by https://gist.github.com/cuonggt -->
