@@ -2,6 +2,17 @@
 
 This is the NL_CL (Netherlands Coding Live) community's website. Please feel free to contribute to this website if you have any links/videos/events/workshops to share with the community! 🎉 Below are some instructions for contribution and how the site works in general.
 
+- [Install](#install)
+- [Usage](#usage)
+	- [Add Event](#add-event)
+	- [Embed](#embed)
+	- [Change Style](#change-style)
+	- [Change Layout](#change-layout)
+	- [Add Gallery](#add-gallery)
+- [Deploy to Github Pages](#deploy-to-github-pages)
+- [Contribute](#contribute)
+- [Code of Conduct](#code-of-conduct)
+
 ## Install
 
 The site is build with [Hugo](https://gohugo.io/). An open-source static-site generator framework. You'll have to install `hugo` and `git` if you want to work on the site locally.
