@@ -189,11 +189,9 @@ button:hover {
 }
 
 .download-ics-btn {
-    margin-top: 1em;
     font-size: .9rem;
-    display: block;
-    width: 14.5ch;
-    opacity: 0.75;
+    margin-top: 1em;
+    opacity: 0.8;
 }
 
 .download-ics-btn:hover {
@@ -215,11 +213,6 @@ button:hover {
 
 .link-secondairy:hover {
     opacity: 1;
-}
-
-.small-link {
-    font-size: 0.95rem;
-    opacity: 0.75;
 }
 
 @media only screen and (max-width: 850px) {

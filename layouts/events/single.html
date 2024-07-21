@@ -8,12 +8,10 @@
   <div class="event-info-header">
     <h2>Info </h2>
     {{ with  .OutputFormats.Get "calendar" }}
-      <a style="font-size: .9rem"href="{{ .RelPermalink }}">+ Add to calendar</a>
+      <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
     {{ end }}
-    
-
-    
   </div>
+  
   <ul>
     {{ $format := "2 Jan 2006" }}
     {{ $timeFormat := "15:04"}} 

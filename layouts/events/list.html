@@ -4,7 +4,7 @@
     
     <!--TODO: dynamicially generate WEBCAL-URL for calendar.ics-file-->
     {{ with .OutputFormats.Get "calendar" }}
-    <a class="small-link" href="{{ .Permalink | safeURL}}">+ Subscribe to calendar</a>
+    <a class="download-ics-btn" href="{{ .Permalink | safeURL}}">+ Subscribe to calendar</a>
     {{ end }}
     
     
@@ -16,12 +16,12 @@
     {{ if not .Params.private }}
         <div class="post">
             <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div> 
-                <h1><a href={{ .Permalink }} title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Description }}
-                <!-- <a class="link-secondairy" title="{{ .Title }}">{{ .Description }}</a> -->
-            
-            {{ with .OutputFormats.Get "calendar" }}
-            <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>               
+            {{ .Description }}
+            <p>
+                {{ with .OutputFormats.Get "calendar" }}
+                <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
+            </p>
             {{ end }}
         </div>
     {{ end }}
