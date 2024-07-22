@@ -2,9 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NETHERLANDS CODING LIVE//event calendar//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
+X-WR-CALNAME:NL Coding Live
 {{range .Pages -}}
 BEGIN:VEVENT
+DTSTAMP:{{dateFormat "20060102T150405" time.Now}}
+DTSTART:{{dateFormat "20060102T150405" .Params.start}}
+DTEND:{{dateFormat "20060102T150405" .Params.end}}
 ORGANIZER;CN="Netherlands Coding Live":mailto:netherlands-coding-live@protonmail.com
 SUMMARY:{{.Title}}
 DESCRIPTION:{{ .Description }}\n\n
@@ -15,8 +18,6 @@ DESCRIPTION:{{ .Description }}\n\n
 {{ with  .OutputFormats.Get "html" }}UID:{{.Permalink}}{{end}}
 SEQUENCE:0
 STATUS:CONFIRMED
-DTSTART:{{dateFormat "20060102T150405" .Params.start}}
-DTEND:{{dateFormat "20060102T150405" .Params.end}}
 LOCATION:{{ replace (plainify (markdownify .Params.location)) ", " "\\, " }}
 URL:{{ with  .OutputFormats.Get "html" }}{{.Permalink}}{{end}}
 END:VEVENT
