@@ -10,13 +10,13 @@ DESCRIPTION:{{ .Description }}\n\n
 	Doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}{{ else }}{{ dateFormat "15:04" .Params.start}}{{ end }} \n
 	Start: {{ dateFormat "15:04" .Params.start }} \n
 	End: {{ dateFormat "15:04" .Params.end }} \n
-	Price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }} \n\n
+	Price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }}
 UID:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
 SEQUENCE:0
 STATUS:CONFIRMED
 DTSTART:{{ dateFormat "20060102T150405" .Params.start }}
 DTEND:{{ dateFormat "20060102T150405" .Params.end }}
-LOCATION:{{ .Params.location | markdownify | plainify }}
+LOCATION:{{ replace (plainify (markdownify .Params.location)) ", " "\\, " }}
 URL:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
 END:VEVENT
 END:VCALENDAR
