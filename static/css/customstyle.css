@@ -198,12 +198,19 @@ button:hover {
     opacity: 1;
 }
 
-.cta-list > li{
+.cta-list > li {
+    margin-bottom: 1.33em;
+    opacity: 0.8;
+}
+
+.no-list-decoration > li{
     list-style-type: none; /* Remove bullets */
     padding-left: 0 !important;
     position: unset;
-    margin-bottom: 1.33em;
-    opacity: 0.8;
+}
+
+.no-list-decoration > li:after{
+    display: none; /* Hide forced list decoration from the main theme.*/
 }
 
 .link-secondairy {
