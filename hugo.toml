@@ -39,7 +39,7 @@ buildFuture = true
     protocol = 'webcal://'
 
 [outputs]
-  home = ["HTML", "ics"]
+  home = ["HTML"]
   section = ["HTML", "Calendar", "rss"]
   page = ["HTML", "rss","Calendar"]
 
