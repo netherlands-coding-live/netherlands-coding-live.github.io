@@ -7,11 +7,10 @@ BEGIN:VEVENT
 ORGANIZER;CN="Netherlands Coding Live":mailto:netherlands-coding-live@protonmail.com
 SUMMARY:{{ .Title }}
 DESCRIPTION:{{ .Description }}\n\n
-	doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}{{ else }}{{ dateFormat "15:04" .Params.start}}{{ end }} \n
-	start: {{ dateFormat "15:04" .Params.start }} \n
-	end: {{ dateFormat "15:04" .Params.end }} \n
-	price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }} \n\n
-	location: {{ .Params.location | markdownify }} 
+	Doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}{{ else }}{{ dateFormat "15:04" .Params.start}}{{ end }} \n
+	Start: {{ dateFormat "15:04" .Params.start }} \n
+	End: {{ dateFormat "15:04" .Params.end }} \n
+	Price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }} \n\n
 UID:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
 SEQUENCE:0
 STATUS:CONFIRMED
