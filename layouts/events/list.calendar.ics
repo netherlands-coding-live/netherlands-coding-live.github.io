@@ -8,17 +8,18 @@ BEGIN:VEVENT
 DTSTAMP:{{dateFormat "20060102T150405" time.Now}}
 DTSTART:{{dateFormat "20060102T150405" .Params.start}}
 DTEND:{{dateFormat "20060102T150405" .Params.end}}
-ORGANIZER;CN="Netherlands Coding Live":mailto:netherlands-coding-live@protonmail.com
+ORGANIZER;CN="Netherlands Coding Live":
+ mailto:netherlands-coding-live@protonmail.com
 SUMMARY:{{.Title}}
 DESCRIPTION:{{ .Description }}\n\n
-	Doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}{{ else }}{{ dateFormat "15:04" .Params.start}}{{ end }} \n
-	Start: {{ dateFormat "15:04" .Params.start }} \n
-	End: {{ dateFormat "15:04" .Params.end }} \n
+	Doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}
+	{{ else }}{{ dateFormat "15:04" .Params.start}}
+	{{ end }} \n
 	Price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }}
 {{ with  .OutputFormats.Get "html" }}UID:{{.Permalink}}{{end}}
 SEQUENCE:0
 STATUS:CONFIRMED
-LOCATION:{{ replace (plainify (markdownify .Params.location)) ", " "\\, " }}
+LOCATION:{{ replace (plainify (markdownify .Params.location)) ", " "\\, "}}
 URL:{{ with  .OutputFormats.Get "html" }}{{.Permalink}}{{end}}
 END:VEVENT
 {{end -}}
