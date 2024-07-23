@@ -1,5 +1,2 @@
 # ignor public build
 public/
-node_modules/
-
-yarn.lock
