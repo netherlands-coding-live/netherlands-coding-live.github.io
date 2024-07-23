@@ -9,20 +9,20 @@
 	
 	<h1>Join Us 👋</h1>
 	<p>
-		Follow the latest updates from our site, mastodon, instagram or get in touch:
+		Follow the latest updates via our calendar, mastodon, instagram or get in touch:
 
 		<ul class="cta-list no-list-decoration">
-			<li><a href="https://social.toplap.org/@nl_cl">* Mastodon *</a></li>
-			<li><a href="https://instagram.com/nl_codinglive">* Instagram *</a></li>
-			<li><a href="mailto:netherlands-coding-live@protonmail.com">* netherlands-coding-live [at] protonmail [dot] com *</a></li>
 			<li>
 				{{ $page := site.GetPage "/events" }}
 				{{ with $page }}
-						{{ with .OutputFormats.Get "Calendar" }}
-						<a href="{{ .Permalink | safeURL}}">* Subscribe to event calendar *</a> 
-						{{ end }}
+				{{ with .OutputFormats.Get "Calendar" }}
+				<a href="{{ .Permalink | safeURL}}">* Subscribe to event calendar *</a> 
+				{{ end }}
 				{{ end }}
 			</li>
+			<li><a href="https://social.toplap.org/@nl_cl">* Mastodon *</a></li>
+			<li><a href="https://instagram.com/nl_codinglive">* Instagram *</a></li>
+			<li><a href="mailto:netherlands-coding-live@protonmail.com">* netherlands-coding-live [at] protonmail [dot] com *</a></li>
 		</ul>		
 	</p>
 </div>
