@@ -77,6 +77,10 @@ a {
     font-weight: bold;
 }
 
+.post {
+    margin-bottom: 3.5em;
+}
+
 button {
     font-family: inherit;
     font-size: 1rem;
@@ -100,6 +104,7 @@ button:hover {
 .terminal-prompt::after{
     background-color: var(--secondary-color);
 }
+
 
 @media only screen and (max-width: 850px) {
     .site-name {
@@ -152,6 +157,77 @@ button:hover {
 	-webkit-animation-name: colours;
 	/* -webkit-animation-timing-function: ease; */
 	opacity: 0.2;
+}
+
+.event-info > ul{
+    margin: 0em;
+    margin-bottom: 4em;
+}
+
+.event-info  h1, h2, h3, h4, h5, h6{
+    margin: 0.75em 0;
+}
+
+.event-links > *{
+    margin-bottom: -0.6em;
+}
+.event-links { 
+    margin-top: 1em;
+    margin-bottom: 4.5em;
+}
+
+.event-list-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.event-list-title {
+    margin-bottom: 0.5em;
+}
+
+.event-item-ctas {
+    margin-top: .5em;
+}
+
+.event-info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-ics-btn {
+    font-size: .9rem;
+    margin-top: 1em;
+    opacity: 0.8;
+}
+
+.download-ics-btn:hover {
+    opacity: 1;
+}
+
+.cta-list > li {
+    margin-bottom: 1.33em;
+    opacity: 0.8;
+}
+
+.no-list-decoration > li{
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0 !important;
+    position: unset;
+}
+
+.no-list-decoration > li:after{
+    display: none; /* Hide forced list decoration from the main theme.*/
+}
+
+.link-secondairy {
+    color: var(--global-font-color); 
+    opacity: 0.9;
+}
+
+.link-secondairy:hover {
+    opacity: 1;
 }
 
 @media only screen and (max-width: 850px) {

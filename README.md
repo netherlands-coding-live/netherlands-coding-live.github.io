@@ -2,6 +2,17 @@
 
 This is the NL_CL (Netherlands Coding Live) community's website. Please feel free to contribute to this website if you have any links/videos/events/workshops to share with the community! 🎉 Below are some instructions for contribution and how the site works in general.
 
+- [Install](#install)
+- [Usage](#usage)
+	- [Add Event](#add-event)
+	- [Embed](#embed)
+	- [Change Style](#change-style)
+	- [Change Layout](#change-layout)
+	- [Add Gallery](#add-gallery)
+- [Deploy to Github Pages](#deploy-to-github-pages)
+- [Contribute](#contribute)
+- [Code of Conduct](#code-of-conduct)
+
 ## Install
 
 The site is build with [Hugo](https://gohugo.io/). An open-source static-site generator framework. You'll have to install `hugo` and `git` if you want to work on the site locally.
@@ -36,12 +47,23 @@ The actual layout is described in the `/layout` folder with `.html` files. The h
 
 ### Add Event
 
-You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following:
+You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following (please note the `'`, these are important!):
 
-```
+```markdown
 +++
-title = 'Your event title' (keep it short for best view)
-date = 'yyyy-mm-dd:hh:mm:ss+00:00' (use the date and start time of the event, add the timezone offset too with +00:00)
+title 		= 'Your event title' (keep it short for best view)'
+description = '@location. A short summary of your event for on the main page.'
+
+location 	= '[Name of venue, addres, city, NL](https://www.openstreetmap.org/maps/link/here)'
+doors 	 	= yyyy-mm-dd:hh:mm:ss+01:00 (optional, set the date and door opening time, add the timezone with +01:00)
+start 	 	= yyyy-mm-dd:hh:mm:ss+01:00 (set the date and start time, add the timezone with +01:00)
+end 	 	= yyyy-mm-dd:hh:mm:ss+01:00 (set the date and end time, add the timezone with +01:00)
+price 	 	= '€?' (optional, set a price for the event)
+
+links = """
+### [>> Go to Eventpage](https://link.to.eventpage)
+"""
+
 draft = false (set this to true while developing and if you don't want to publish yet)
 +++
 ```
@@ -49,26 +71,15 @@ draft = false (set this to true while developing and if you don't want to publis
 Now you can add the details for your event in the markdown file following this template:
 
 ```markdown
-<!--Type a summary here-->
-
-@the location. A little summary of your event for on the main page.
-
-<!--Don't remover the "more" comment, this is important for rendering the summary on the main page!-->
-<!--more-->
-
-### [>> Go to Eventpage](https://link.to.eventpage)
-
-## Info
-
-- Doors: 00h00
-- Time: 00h00 - 00h00
-- Price: ?
-- Location: [Name, Adress, City](https://link.to.venue)
-
 ## About
 
 Some more details like what is the event about and who are in the line-up
 
+## More headers
+
+More text that you want to add
+
+{{< optional embeddings like youtube vids (read below) >}}
 ```
 
 ### Embed

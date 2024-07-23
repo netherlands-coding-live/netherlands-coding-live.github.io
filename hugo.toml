@@ -8,15 +8,7 @@ buildFuture = true
 
 [params]
   custom_css = [ "css/customstyle.css" ]
-
-  # Cutting off the page title to a few 
-  # characters for mobile (console-demo -> co)
   titleCutting = true
-
-  # Set the animation style -- https://animate.style/
-  # To disable animations, please remove or 
-  # comment animationStyle parameter
-  # animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
   name = "events/"
@@ -33,3 +25,22 @@ buildFuture = true
   [[params.navlinks]]
   name = "works/"
   url = "works/"
+
+[mediaTypes]
+  [mediaTypes.'text/calendar']
+    suffixes = ['ics']
+
+[outputFormats]
+  [outputFormats.calendar]
+    baseName = 'calendar'
+    isPlainText = true
+    mediaType = 'text/calendar'
+    permalinkable = true
+    protocol = 'webcal://'
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML", "Calendar", "rss"]
+  page = ["HTML", "rss","Calendar"]
+
+ 

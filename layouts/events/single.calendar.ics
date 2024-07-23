@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NETHERLANDS CODING LIVE//event calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Netherlands Coding Live":mailto:netherlands-coding-live@protonmail.com
+SUMMARY:{{ .Title }}
+DESCRIPTION:{{ .Description }}\n\n
+	Doors: {{ with .Params.doors }}{{ dateFormat "15:04" .}}{{ else }}{{ dateFormat "15:04" .Params.start}}{{ end }} \n
+	Price: {{ with .Params.price }}{{ . }}{{ else }}free{{ end }}
+UID:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTART:{{ dateFormat "20060102T150405" .Params.start }}
+DTEND:{{ dateFormat "20060102T150405" .Params.end }}
+LOCATION:{{ replace (plainify (markdownify .Params.location)) ", " "\\, " }}
+URL:{{ with  .OutputFormats.Get "html" }}{{ .Permalink }}{{ end }}
+END:VEVENT
+END:VCALENDAR

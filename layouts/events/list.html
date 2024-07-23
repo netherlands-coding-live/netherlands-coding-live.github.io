@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="event-list-header">
+    <h1>{{ .Page.Title }}</h1>
+    
+    <!--TODO: dynamicially generate WEBCAL-URL for calendar.ics-file-->
+    {{ with .OutputFormats.Get "calendar" }}
+    <a class="download-ics-btn" href="{{ .Permalink | safeURL}}">+ Subscribe to calendar</a>
+    {{ end }}
+    
+    
+</div>
+<br/>
+{{ .Content }}
+<div class="posts-list">
+{{ range sort .Data.Pages ".Params.start" "desc" }}
+    {{ if not .Params.private }}
+        <div class="post">
+            <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div> 
+            <h1 class="event-list-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>               
+            {{ .Description }}
+            <div class="event-item-ctas">
+                {{ with .OutputFormats.Get "calendar" }}
+                <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
+            </div>
+            {{ end }}
+        </div>
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}

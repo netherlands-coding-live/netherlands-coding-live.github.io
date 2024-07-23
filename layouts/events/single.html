@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>{{ .Description }}</p>
+<div class="event-links">
+  {{ .Params.links | markdownify }}
+</div>
+<div class="event-info">
+  <div class="event-info-header">
+    <h2>Info </h2>
+    {{ with  .OutputFormats.Get "calendar" }}
+      <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
+    {{ end }}
+  </div>
+  
+  <ul>
+    {{ $format := "2 Jan 2006" }}
+    {{ $timeFormat := "15:04"}} 
+    {{ if .Params.start }}<li>Date: {{ .Params.start.Format $format }}</li>{{ end }}
+    {{ if .Params.start }}<li>Time: {{ .Params.start.Format $timeFormat}} {{ if .Params.end }}- {{ .Params.end.Format $timeFormat}}{{ end }}</li>{{ end }}
+    {{ if .Params.doors }}<li>Doors: {{ .Params.doors.Format $timeFormat }}</li>{{ end }}
+    {{ if .Params.price }}<li>Price: {{ .Params.price}} </li>{{ end }}
+    {{ if .Params.location }}<li>Location: {{ .Params.location | markdownify }} </li>{{ end }}
+  </ul>
+</div>
+
+{{ .Content }}
+
+{{ end }}
