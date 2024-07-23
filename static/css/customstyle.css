@@ -78,7 +78,7 @@ a {
 }
 
 .post {
-    margin-bottom: 3em;
+    margin-bottom: 3.5em;
 }
 
 button {
@@ -180,6 +180,14 @@ button:hover {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+}
+
+.event-list-title {
+    margin-bottom: 0.5em;
+}
+
+.event-item-ctas {
+    margin-top: .5em;
 }
 
 .event-info-header {

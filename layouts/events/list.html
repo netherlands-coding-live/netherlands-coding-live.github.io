@@ -16,12 +16,12 @@
     {{ if not .Params.private }}
         <div class="post">
             <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div> 
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>               
+            <h1 class="event-list-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>               
             {{ .Description }}
-            <p>
+            <div class="event-item-ctas">
                 {{ with .OutputFormats.Get "calendar" }}
                 <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
-            </p>
+            </div>
             {{ end }}
         </div>
     {{ end }}
