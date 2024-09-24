@@ -2,17 +2,21 @@
 title       = "Cinematic Algorithms, OCCII Amsterdam"
 description = "@OCCII Audivisual concert with live coding, analog devices, and hardware instruments"
 
-location    = "[OCCII, 9 Novermber 24, Amsterdam NL](https://www.openstreetmap.org/way/271556622)"
+location    = "[OCCII, 9 November 24, Amsterdam NL](https://www.openstreetmap.org/way/271556622)"
 doors       = 2024-11-09T20:00:00+01:00
 start       = 2024-11-09T20:30:00+01:00
 end         = 2024-11-09T23:00:00+01:00
 
-
+links = """
+  ### [» Tickets](https://occii.org/events/cinematic-algorithms/)
+"""
 +++
 
 ## About
 
 A night of electronic music and visuals combining live coding, concrete sounds, synthesis, analog electronics, computer generated graphics, generative music, and more! All deeply rooted in improvisation. Presented in collaboration between OCCII and Netherlands Coding Live (NL_CL).
+
+## Line-up
 
 #### \unexCoder
 \unexCoder is a composer and computer artist from Argentina. He uses programming languages to develop and build hybrid performance systems that combine live coded algorithms with analog devices and computer generated graphics. His audiovisual pieces push the viewer into a deep abstract volumetric aural and visual experience. He has performed in festivals and concerts in Argentina, Spain, Germany, France and Netherlands.
