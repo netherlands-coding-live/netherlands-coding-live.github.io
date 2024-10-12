@@ -1,10 +1,10 @@
-2024-10-29-meetup.mdtitle       = "NL_CL RLCC Meetup, Rotterdam"
+2024-07-11-meetup.mdtitle       = "NL_CL RLCC Meetup, Rotterdam"
 description = "@V2. This event is an open meetup of Rotterdam's live coding community."
 
 location    = "[V2_Lab for the Unstable Media, Eendrachtsstraat 10, Rotterdam NL](https://www.openstreetmap.org/node/6766334767)"
-doors       = 2024-10-29T18:45:00+01:00
-start       = 2024-10-29T19:00:00+01:00
-end         = 2024-10-29T22:00:00+01:00
+doors       = 2024-07-11T18:45:00+01:00
+start       = 2024-07-11T19:00:00+01:00
+end         = 2024-07-11T22:00:00+01:00
 
 links = """
   ### [» Go to eventpage ](https://v2.nl/events/rotterdam-live-coders-community-meetup-july-2024)
