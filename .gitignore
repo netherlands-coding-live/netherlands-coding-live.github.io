@@ -1,3 +1,6 @@
-# ignor public build
+# ignore public build
 public/
 content/photos/rlcc-13-1-2025/.DS_Store
+
+# ignore generated resources
+resources/_gen
