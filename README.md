@@ -149,10 +149,10 @@ If you can't push the new workflow to github you might need to have the correct 
 ## Contribute
 
 1. Fork this repository (click `fork` in the top right)
-2. Clone the repository to your computer `git clone https://github.com/<this-is-you>/<forked-repo>.git`
-3. Branch the Fork `git checkout -b <name-your-branch>`
-4. Add the things and changes everything you like to the site.
-6. Add, commit and push your changes `git add .` `git commit -a` `git push origin <your-branch-name>`
+2. Clone the repository to your computer `git clone https://github.com/this-is-you/forked-repo.git`
+3. Branch the Fork `git checkout -b new-branch-name`
+4. Add the things and changes you like to the site.
+6. Add, commit and push your changes `git add .`, `git commit -m` (write a commit message), `git push origin new-branch-name`
 7. Go to your forked repo in the browser and click `compare & pull request`, then `create pull request`
 
 [All steps with examples and images](https://github.com/firstcontributions/first-contributions/blob/master/README.md)
