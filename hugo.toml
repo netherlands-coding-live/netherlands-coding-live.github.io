@@ -42,5 +42,3 @@ buildFuture = true
   home = ["HTML"]
   section = ["HTML", "Calendar", "rss"]
   page = ["HTML", "rss","Calendar"]
-
- 

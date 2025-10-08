@@ -6,6 +6,12 @@ draft = false
 
 Below you can find a selection of performances and events made by people in our community.
 
+## Pattern Show at Radio Worm 
+
+{{< mixcloud "https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fradiowormrotterdam%2Fthe-pattern-show-w-eerie-host-11092025%2F" >}}
+
+---
+
 ## Lil Bleep & Nikilia at AlgoAlgo /* VIU */
 
 {{< youtube id=zsUzQeUvDkw start=9738 >}} <br>
