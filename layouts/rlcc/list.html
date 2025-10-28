@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="event-list-header">
+    <h1>{{ .Page.Title }}</h1>
+</div>
+<br/>
+{{ .Content }}
+
+{{ $events := site.GetPage "/events" }}
+<div class="posts-list">
+{{ with $events }}
+    {{ range sort .Pages ".Params.start" "desc" }}
+        {{ if and (not .Params.private) (in (lower .Title) "rlcc") }}
+            <div class="post">
+                <div class="date">{{ .Params.start.Format "Jan. 2, 2006" }}</div>
+                <h1 class="event-list-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Description }}
+                <div class="event-item-ctas">
+                    {{ with .OutputFormats.Get "calendar" }}
+                    <a class="download-ics-btn" href="{{ .RelPermalink }}">+ Add to calendar</a>
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}
+
+
