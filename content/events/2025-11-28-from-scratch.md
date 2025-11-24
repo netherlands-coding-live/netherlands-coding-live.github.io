@@ -5,7 +5,7 @@ description = "@The Grey Space Sidespace."
 location    = "[The Grey Space, Paviljoensgracht 20, Den Haag](https://www.openstreetmap.org/?mlat=52.074537&mlon=4.311892#map=19/52.074537/4.311892)"
 doors       = 2025-11-28T20:30:00+01:00
 start       = 2025-11-28T20:00:00+01:00
-end         = 2025-11-29T21:00:00+01:00
+end         = 2025-11-28T21:00:00+01:00
 price       = "€25 / €15 student (part of Iterations Conference)"
 
 links = """
