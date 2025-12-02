@@ -27,7 +27,7 @@ Check if the installation worked correctly by running:
 
 Now clone this repository to your computer: 
 
-`git clone --recursive-submodules https://github.com/netherlands-coding-live/netherlands-coding-live.github.io.git`
+`git clone --recurse-submodules https://github.com/netherlands-coding-live/netherlands-coding-live.github.io.git`
 
 To run the server locally and develop for the site:
 
