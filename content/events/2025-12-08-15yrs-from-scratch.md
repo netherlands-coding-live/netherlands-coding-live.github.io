@@ -26,4 +26,4 @@ The from-scratch rules:
 
 ## Livestream
 
-The event is streamed live to [Eulerroom](https://eulerroom.com/)
+The event is streamed live on [Eulerroom](https://live.eulerroom.com/) as part of the 15 Year From-Scratch, initiated by [TOPLAP Barcelona](https://toplap.cat/posts/from-scratch-15-years/).
