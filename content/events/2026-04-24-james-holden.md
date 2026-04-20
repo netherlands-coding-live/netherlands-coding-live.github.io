@@ -5,7 +5,7 @@ description = "@TivoliVredenburg, Utrecht"
 location    = "[Pandora @ TivoliVredenburg, ](https://osm.org/go/0E6JHJpAz?m=&node=2711674896)"
 doors       = 2026-04-24T20:00:00+01:00
 start       = 2026-04-24T20:30:00+01:00
-end         = 2026-04-24T00:00:00+01:00
+end         = 2026-04-25T00:00:00+01:00
 price       = "€24"
 
 links = """
