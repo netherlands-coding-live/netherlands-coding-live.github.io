@@ -30,6 +30,6 @@ Creative Coding Utrecht and TivoliVredenburg present an evening featuring James 
 
 22:15 Lucretio & Sabrina Verhage
 
-22:45 NL_CL Afterparty Jam @ Pandora Foyer
+22:45 NL_CL Afterparty Jam @ Pandora Foyer with Dago Sondervan, Kaotec, Saskia Freeke & tmhglnd
 
 00:00 Verwachte eindtijd
