@@ -6,7 +6,7 @@ location    = "[Creative Coding Utrecht, Vlampijpstraat 84, Utrecht](https://www
 doors       = 2026-05-16T13:00:00+02:00
 start       = 2026-05-16T13:30:00+02:00
 end         = 2026-05-17T19:00:00+02:00
-price       = "€? regular/ €? student"
+price       = "€30 regular/ €15 student"
 
 links = """
   ### [» Go to eventpage](https://creativecodingutrecht.nl/en/calendar/live-coding-101)
