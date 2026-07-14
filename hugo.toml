@@ -15,6 +15,10 @@ buildFuture = true
   url = "events/"
 
   [[params.navlinks]]
+  name = "radio/"
+  url = "radio/"
+  
+  [[params.navlinks]]
   name = "photos/"
   url = "photos/"
 
@@ -26,9 +30,6 @@ buildFuture = true
   name = "works/"
   url = "works/"
 
-  [[params.navlinks]]
-  name = "radio/"
-  url = "radio/"
 
 [mediaTypes]
   [mediaTypes.'text/calendar']

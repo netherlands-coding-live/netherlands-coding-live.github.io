@@ -18,23 +18,23 @@ draft = false
 
 ## Released Records
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1928532870/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://timohoogland.bandcamp.com/album/abstraction">.abstraction() by tmhglnd</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1928532870/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://timohoogland.bandcamp.com/album/abstraction">.abstraction() by tmhglnd</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=753362667/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://lilbleep.bandcamp.com/track/laura-in-the-multiverse">Laura_In_The_Multiverse by Lil_Bleep</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=753362667/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://lilbleep.bandcamp.com/track/laura-in-the-multiverse">Laura_In_The_Multiverse by Lil_Bleep</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=970050645/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/track=2445982730/transparent=true/" seamless><a href="https://algorave.bandcamp.com/album/compassion-through-algorithms-volume-iii">Compassion through algorithms volume III by eerie_ear</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=970050645/size=small/bgcol=333333/linkcol=0f91ff/track=2445982730/transparent=true/" seamless><a href="https://algorave.bandcamp.com/album/compassion-through-algorithms-volume-iii">Compassion through algorithms volume III by eerie_ear</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=970050645/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/track=4077803185/transparent=true/" seamless><a href="https://algorave.bandcamp.com/album/compassion-through-algorithms-volume-iii">Compassion through algorithms volume III by Den Ree</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=970050645/size=small/bgcol=333333/linkcol=0f91ff/tracklist=false/track=4077803185/transparent=true/" seamless><a href="https://algorave.bandcamp.com/album/compassion-through-algorithms-volume-iii">Compassion through algorithms volume III by Den Ree</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1860090871/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nearest-neighbors.bandcamp.com/track/exit-to-exist">Exit to Exist by Damage Such</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=1860090871/size=small/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://nearest-neighbors.bandcamp.com/track/exit-to-exist">Exit to Exist by Damage Such</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2810408734/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://eerieear.bandcamp.com/album/margins">margins by eerie_ear</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2810408734/size=small/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://eerieear.bandcamp.com/album/margins">margins by eerie_ear</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4274203699/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://rafaeleandrade.bandcamp.com/album/un-bow">UN-BOW by Rafaele Andrade</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4274203699/size=small/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://rafaeleandrade.bandcamp.com/album/un-bow">UN-BOW by Rafaele Andrade</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=757153550/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://sonologico.bandcamp.com/track/the-future-of-music-nl-cl-1-event-live-coding-improvisation">The Future of Music - NL_CL #1 event - Live coding improvisation by sonologico</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=757153550/size=small/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://sonologico.bandcamp.com/track/the-future-of-music-nl-cl-1-event-live-coding-improvisation">The Future of Music - NL_CL #1 event - Live coding improvisation by sonologico</a></iframe>
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3687972170/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/track=994514336/transparent=true/" seamless><a href="https://iclc2017.bandcamp.com/album/live-coding-alrededor-del-sol">Live coding alrededor del sol by Panda Zooicide</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3687972170/size=small/bgcol=333333/linkcol=0f91ff/tracklist=false/track=994514336/transparent=true/" seamless><a href="https://iclc2017.bandcamp.com/album/live-coding-alrededor-del-sol">Live coding alrededor del sol by Panda Zooicide</a></iframe>
 
 ## Compilations
 

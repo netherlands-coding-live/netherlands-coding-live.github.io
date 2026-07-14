@@ -111,6 +111,10 @@ button:hover {
         width: 5ch;
     }
 
+    .terminal-menu {
+        overflow-wrap: anywhere;
+    }
+
     .posts-list {
         position: relative;
         padding-left: 80px;
