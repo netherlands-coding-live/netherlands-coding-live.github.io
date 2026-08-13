@@ -3,9 +3,9 @@ title 		= 'De Computerkamer'
 description = '@Strijp-S Eindhoven. Workshop & Algorave @ DIY Festival - Nacht van Strijp-S.'
 
 location 	= '[Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)'
-doors 	 	= 2026-10-19:16:00:00+01:00 (optional, set the date and door opening time, add the timezone with +01:00)
-start 	 	= 2026-10-19:19:00:00+01:00 (set the date and start time, add the timezone with +01:00)
-end 	 	= 2026-10-19:23:00:00+01:00 (set the date and end time, add the timezone with +01:00)
+doors 	 	= 2026-09-19:16:00:00+01:00 (optional, set the date and door opening time, add the timezone with +01:00)
+start 	 	= 2026-09-19:19:00:00+01:00 (set the date and start time, add the timezone with +01:00)
+end 	 	= 2026-09-19:23:00:00+01:00 (set the date and end time, add the timezone with +01:00)
 price 	 	= '€?' (optional, set a price for the event)
 
 links = """
@@ -22,6 +22,7 @@ Live Coding Eindhoven will host a workshop and Algorave at DIY Festival - Nacht 
 **Workshop Live Coding in [Topos.live](https://topos.live)**
 By: Bubobu [https://raphaelforment.fr/](https://raphaelforment.fr/)
 Time: 16:00 - 18:00
+Date: 19 September 2026
 Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)
 
 *Sign-up link: COMING SOON *
@@ -29,6 +30,7 @@ Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.g
 **Algorave**
 
 Time: 19:00 - 23:00
+Date: 19 September 2026
 Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)
 
 Line-up:
