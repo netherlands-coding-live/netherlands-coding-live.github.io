@@ -15,7 +15,7 @@ This is the NL_CL (Netherlands Coding Live) community's website. Please feel fre
 
 ## Install
 
-The site is build with [Hugo](https://gohugo.io/). An open-source static-site generator framework. You'll have to install `hugo` and `git` if you want to work on the site locally.
+The site is build with [Hugo](https://gohugo.io/). An open-source static-site generator framework. You'll have to install `hugo` and `git` if you want to work on the site locally, *but you can also make changes via the github web interface!*
 
 Follow the instructions here: [https://gohugo.io/installation/](https://gohugo.io/installation/)
 
@@ -47,24 +47,24 @@ The actual layout is described in the `/layout` folder with `.html` files. The h
 
 ### Add Event
 
-You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-shortname.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following (please note the `'`, these are important!):
+You can add your upcoming event as a markdown file in the `/events` folder. Create a new file with the name: `yyyy-mm-dd-short-event-name.md`. You can use a previous event as an example to see how everything is formatted. Please refer to the `/events/markdown-guide.md` to see what you can do with markdown. In the beginning of the file type the following (please note the `'`, these are important!):
 
-```markdown
+```toml
 +++
-title 		= 'Your event title' (keep it short for best view)'
-description = '@location. A short summary of your event for on the main page.'
+title 		= 'Your event title' #(keep it short for best view)
+description = '@location. And short summary of your event for the main page.'
 
 location 	= '[Name of venue, addres, city, NL](https://www.openstreetmap.org/maps/link/here)'
-doors 	 	= yyyy-mm-dd:hh:mm:ss+01:00 (optional, set the date and door opening time, add the timezone with +01:00)
-start 	 	= yyyy-mm-dd:hh:mm:ss+01:00 (set the date and start time, add the timezone with +01:00)
-end 	 	= yyyy-mm-dd:hh:mm:ss+01:00 (set the date and end time, add the timezone with +01:00)
-price 	 	= '€?' (optional, set a price for the event)
+doors 	 	= yyyy-mm-dd:hh:mm:ss+01:00 #(optional, remove otherwise! add summertime with +02:00)
+start 	 	= yyyy-mm-dd:hh:mm:ss+01:00 #(set the date and start time, add summertime with +02:00)
+end 	 	= yyyy-mm-dd:hh:mm:ss+01:00 #(set the date and end time, add summertime with +02:00)
+price 	 	= '€?' #(optional, remove otherwise, set a price for the event)
 
 links = """
 ### [>> Go to Eventpage](https://link.to.eventpage)
 """
 
-draft = false (set this to true while developing and if you don't want to publish yet)
+draft = false #(set this to true while developing or if you don't want to publish the page yet)
 +++
 ```
 
@@ -91,10 +91,14 @@ If you like to embed some item from another webpage, for example a youtube video
 
 This is the aftermovie from the International Conference on Live Coding 2023 in Utrecht.
 
-{{< youtube IDehg9Wbrws >}}
+{{< youtube id=IDehg9Wbrws >}}
 ```
 
+#### other shortcodes
+
 You can find other shortcodes such as `gist`, `vimeo`, `twitter`, `instagram` or read on how to make your own shortcodes in the [Hugo Documentation](https://gohugo.io/content-management/shortcodes/).
+
+We have a custom shortcode for `{{< mixcloud "link-to-player-widget" >}}` in the `/layouts/shortcodes` folder.
 
 ### Change Style
 
