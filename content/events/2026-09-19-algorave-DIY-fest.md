@@ -3,7 +3,7 @@ title 		= 'De Computerkamer'
 description = '@Strijp-S Eindhoven. Workshop & Algorave @ DIY Festival - Nacht van Strijp-S.'
 
 location 	= '[Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)'
-doors 	 	= 2026-09-19:16:00:00+01:00 (optional, set the date and door opening time, add the timezone with +01:00)
+doors 	 	= 2026-09-19T16:00:00+01:00
 start 	 	= 2026-09-19:19:00:00+01:00 (set the date and start time, add the timezone with +01:00)
 end 	 	= 2026-09-19:23:00:00+01:00 (set the date and end time, add the timezone with +01:00)
 price 	 	= '€?' (optional, set a price for the event)
