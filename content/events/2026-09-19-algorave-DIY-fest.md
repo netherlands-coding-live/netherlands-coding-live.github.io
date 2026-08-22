@@ -1,12 +1,12 @@
 +++
-title 		= 'De Computerkamer'
+title 		= 'Algorave @ De Computerkamer, DIY Festival'
 description = '@Strijp-S Eindhoven. Workshop & Algorave @ DIY Festival - Nacht van Strijp-S.'
 
 location 	= '[Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)'
-doors 	 	= 2026-09-19T16:00:00+01:00
-start 	 	= 2026-09-19:19:00:00+01:00 (set the date and start time, add the timezone with +01:00)
-end 	 	= 2026-09-19:23:00:00+01:00 (set the date and end time, add the timezone with +01:00)
-price 	 	= '€?' (optional, set a price for the event)
+doors 	 	= 2026-09-19T16:00:00+02:00
+start 	 	= 2026-09-19:19:00:00+02:00
+end 	 	= 2026-09-19:23:00:00+02:00
+price 	 	= 'Free attendance'
 
 links = """
 ### [>> Go to Eventpage](https://www.diyfestival.nl/portfolio/eindhoven-2026/)
@@ -15,19 +15,7 @@ links = """
 draft = false
 +++
 
-## De Computerkamer @ DIY Festival - Nacht van Strijp-S
-
-Live Coding Eindhoven will host a workshop and Algorave at DIY Festival - Nacht van Strijp-S 2026!
-
-**Workshop Live Coding in [Topos.live](https://topos.live)**
-By: Bubobu [https://raphaelforment.fr/](https://raphaelforment.fr/)
-Time: 16:00 - 18:00
-Date: 19 September 2026
-Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)
-
-*Sign-up link: [SIGN UP HERE!](https://docs.google.com/forms/d/e/1FAIpQLSdT-_yMj_nXU7MDXMSuz1d-B7CYIxnz12Xs0Qay4XRj2Nbwng/viewform?usp=publish-editor) *
-
-**Algorave**
+## Algorave @ DIY Festival - Nacht van Strijp-S
 
 Time: 19:00 - 23:00
 Date: 19 September 2026
@@ -41,6 +29,12 @@ Line-up:
 - Wurm
 - Eerie_ear
 - Nikilia
+
+---
+
+## De Computerkamer @ DIY Festival - Nacht van Strijp-S
+
+Live Coding Eindhoven will host this workshop paired with an Algorave in the evening at DIY Festival - Nacht van Strijp-S 2026! Both workshop and Algorave will take place in The Klokgebouw, where through a collaboration of multiple artists, one of its rooms will be transformed into "De Computerkamer" (the Computer Room). 
 
 ## About DIY Festival
 
