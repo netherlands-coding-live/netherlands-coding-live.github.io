@@ -12,7 +12,7 @@ links = """
 ### [>> Go to Eventpage](https://www.diyfestival.nl/portfolio/eindhoven-2026/)
 """
 
-draft = true
+draft = false
 +++
 
 ## De Computerkamer @ DIY Festival - Nacht van Strijp-S
@@ -25,7 +25,7 @@ Time: 16:00 - 18:00
 Date: 19 September 2026
 Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)
 
-*Sign-up link: COMING SOON *
+*Sign-up link: [SIGN UP HERE!](https://docs.google.com/forms/d/e/1FAIpQLSdT-_yMj_nXU7MDXMSuz1d-B7CYIxnz12Xs0Qay4XRj2Nbwng/viewform?usp=publish-editor) *
 
 **Algorave**
 
