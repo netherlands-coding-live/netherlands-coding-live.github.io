@@ -15,7 +15,8 @@ links = """
 draft = false
 +++
 
-**Workshop Live Coding in [Topos.live](https://topos.live)**
+## Workshop Live Coding in [Topos.live](https://topos.live)
+
 By: Bubobu [https://raphaelforment.fr/](https://raphaelforment.fr/)
 Time: 16:00 - 18:00
 Date: 19 September 2026
