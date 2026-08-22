@@ -73,11 +73,15 @@ Now you can add the details for your event in the markdown file following this t
 ```markdown
 ## About
 
-Some more details like what is the event about and who are in the line-up
+Some more details, like what is the event about, and who are in the line-up.
 
 ## More headers
 
 More text that you want to add
+
+If you have a poster, you can add it to the `/content/photos/posters` folder. **Please reduce the filesize as much as possible to < 500kB**! (eg. 1920x1080 pixels, JPEG, quality=80 is usually okay)
+
+![](/photos/posters/your-cool_not-ai-generated_poster.png)
 
 {{< optional embeddings like youtube vids (read below) >}}
 ```
