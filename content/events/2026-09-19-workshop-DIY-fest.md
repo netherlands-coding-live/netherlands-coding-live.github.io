@@ -1,11 +1,11 @@
 +++
-title 		= 'Workshop Live Coding @ De Computerkamer, DIY Festival'
-description = '@Strijp-S Eindhoven. Workshop & Algorave @ DIY Festival - Nacht van Strijp-S.'
+title 		= 'Workshop Live Coding Topos @ De Computerkamer'
+description = '@DIY Festival - Nacht van Strijp-S, Eindhoven'
 
-location 	= '[Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)'
+location 	= '[Klokgebouw 50, 5617 AB, Eindhoven, NL](https://www.openstreetmap.org/node/2754999153#map=19/51.448614/5.457276)'
 doors 	 	= 2026-09-19T16:00:00+02:00
-start 	 	= 2026-09-19:16:00:00+02:00
-end 	 	= 2026-09-19:18:00:00+02:00
+start 	 	= 2026-09-19T16:00:00+02:00
+end 	 	= 2026-09-19T18:00:00+02:00
 price 	 	= 'Free registration'
 
 links = """
@@ -18,9 +18,6 @@ draft = false
 ## Workshop Live Coding in [Topos.live](https://topos.live)
 
 By: Bubobu [https://raphaelforment.fr/](https://raphaelforment.fr/)
-Time: 16:00 - 18:00
-Date: 19 September 2026
-Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)
 
 *Registration link: [Workshop sign-up.](https://docs.google.com/forms/d/e/1FAIpQLSdT-_yMj_nXU7MDXMSuz1d-B7CYIxnz12Xs0Qay4XRj2Nbwng/viewform?usp=publish-editor) *
 

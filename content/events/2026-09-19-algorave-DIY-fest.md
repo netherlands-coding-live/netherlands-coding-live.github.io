@@ -1,27 +1,24 @@
 +++
 title 		= 'Algorave @ De Computerkamer, DIY Festival'
-description = '@Strijp-S Eindhoven. Workshop & Algorave @ DIY Festival - Nacht van Strijp-S.'
+description = '@DIY Festival - Nacht van Strijp-S, Eindhoven'
 
-location 	= '[Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)'
+location 	= '[Klokgebouw 50, 5617 AB, Eindhoven, NL](https://www.openstreetmap.org/node/2754999153#map=19/51.448614/5.457276)'
 doors 	 	= 2026-09-19T16:00:00+02:00
-start 	 	= 2026-09-19:19:00:00+02:00
-end 	 	= 2026-09-19:23:00:00+02:00
-price 	 	= 'Free attendance'
+start 	 	= 2026-09-19T19:00:00+02:00
+end 	 	= 2026-09-19T23:00:00+02:00
+price 	 	= 'Free entrance'
 
 links = """
 ### [>> Go to Eventpage](https://www.diyfestival.nl/portfolio/eindhoven-2026/)
 """
-
-draft = false
 +++
 
-## Algorave @ DIY Festival - Nacht van Strijp-S
+## De Computerkamer @ DIY Festival - Nacht van Strijp-S
 
-Time: 19:00 - 23:00
-Date: 19 September 2026
-Location: [Klokgebouw, Klokgebouw 50, 5617 AB, Eindhoven, NL](https://maps.app.goo.gl/DtoKUU9xcu8rmzZp8)
+Live Coding Eindhoven will host an Algorave in the evening at DIY Festival - Nacht van Strijp-S 2026! Both workshop and Algorave will take place in The Klokgebouw, where through a collaboration of multiple artists, one of its rooms will be transformed into *"De Computerkamer"* (the Computer Room). 
 
-Line-up:
+## Line-up
+
 - Bubobubo
 - Vi
 - Lil Bleep
@@ -31,10 +28,6 @@ Line-up:
 - Nikilia
 
 ---
-
-## De Computerkamer @ DIY Festival - Nacht van Strijp-S
-
-Live Coding Eindhoven will host this workshop paired with an Algorave in the evening at DIY Festival - Nacht van Strijp-S 2026! Both workshop and Algorave will take place in The Klokgebouw, where through a collaboration of multiple artists, one of its rooms will be transformed into "De Computerkamer" (the Computer Room). 
 
 ## About DIY Festival
 
