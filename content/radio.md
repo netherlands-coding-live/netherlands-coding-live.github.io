@@ -1,5 +1,5 @@
 +++
-title = 'Listen to algorithmic patterns 📻'
+title = 'Listen to algorithmic patterns'
 date = 2026-07-14
 draft = false
 +++

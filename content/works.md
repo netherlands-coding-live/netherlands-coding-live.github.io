@@ -1,5 +1,5 @@
 +++
-title = 'Hear and See our Works 🎵 📟 👾'
+title = 'Hear and See our Works'
 date = 2024-05-26
 draft = false
 +++

@@ -7,7 +7,7 @@
 		>Netherlands Coding Live aka "NL_CL" ~ a series of live coding concerts, meetups, workshops and more, organized by live coders based in The Netherlands.
 	</p>
 	
-	<h1>Join Us 👋</h1>
+	<h1>Join Us!</h1>
 	<p>
 		Follow the latest updates via our calendar, mastodon, instagram or get in touch if you want us to organise a concert, meetup or event at your location:
 
@@ -27,11 +27,11 @@
 	</p>
 </div>
 
-<h1>Events 🎉</h1>
+<h1>Upcoming Events</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/events" }}
-	{{ range first 3 (sort .Data.Pages ".Params.start" "desc" (where .Pages ".Params.private" "!=" true))}}
+	{{ range first 5 (sort .Data.Pages ".Params.start" "desc" (where .Pages ".Params.private" "!=" true))}}
 		<div class="post">
 			<p>
 				<div class="date">{{ .Params.start.Format "Jan. 2, 2006 15:04" }}</div>
@@ -48,7 +48,7 @@
 	</div>
 </div>
 
-<h1>Memories 📸</h1>
+<h1>Memories</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
