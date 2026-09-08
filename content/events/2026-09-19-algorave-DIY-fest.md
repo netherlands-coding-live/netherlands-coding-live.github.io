@@ -3,7 +3,7 @@ title 		= 'Algorave @ De Computerkamer, DIY Festival'
 description = '@DIY Festival - Nacht van Strijp-S, Eindhoven'
 
 location 	= '[Klokgebouw 50, 5617 AB, Eindhoven, NL](https://www.openstreetmap.org/node/2754999153#map=19/51.448614/5.457276)'
-doors 	 	= 2026-09-19T16:00:00+02:00
+doors 	 	= 2026-09-19T18:00:00+02:00
 start 	 	= 2026-09-19T19:00:00+02:00
 end 	 	= 2026-09-19T23:00:00+02:00
 price 	 	= 'Free entrance'
@@ -26,6 +26,7 @@ Live Coding Eindhoven will host an Algorave in the evening at DIY Festival - Nac
 - Wurm
 - Eerie_ear
 - Nikilia
+- Tmhglnd
 
 ---
 
