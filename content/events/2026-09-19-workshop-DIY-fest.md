@@ -1,5 +1,5 @@
 +++
-title 		= 'Workshop Live Coding Topos @ De Computerkamer'
+title 		= 'Workshop Live Coding Cagire @ De Computerkamer'
 description = '@DIY Festival - Nacht van Strijp-S, Eindhoven'
 
 location 	= '[Klokgebouw 50, 5617 AB, Eindhoven, NL](https://www.openstreetmap.org/node/2754999153#map=19/51.448614/5.457276)'
