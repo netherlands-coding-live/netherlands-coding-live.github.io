@@ -5,7 +5,7 @@ description = "@NEMO, Amsterdam"
 location    = "[Nemo, Oosterdok 2, Amsterdam](https://osm.org/go/0E4~_E3Sf?node=2741083161)"
 doors       = 2026-11-07T23:00:00+01:00
 start       = 2026-11-07T23:00:00+01:00
-end         = 2026-11-07T02:00:00+01:00
+end         = 2026-11-08T02:00:00+01:00
 price       = "€25"
 
 links = """
