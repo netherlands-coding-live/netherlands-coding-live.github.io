@@ -5,7 +5,7 @@ description = "@BlaBlalab comunity space, Eindhoven"
 location    = "[Baltan labratories Kastanjelaan 500 5616 LZ Eindhoven](https://www.openstreetmap.org/note/4822185)"
 doors       = 2026-10-23T14:30:00+02:00
 start       = 2026-10-23T15:00:00+02:00
-end         = 2026-10-23T17:00:00+02:00
+end         = 2026-10-23T18:00:00+02:00
 price       = "€27.50 / €20 student"
 
 links = """
