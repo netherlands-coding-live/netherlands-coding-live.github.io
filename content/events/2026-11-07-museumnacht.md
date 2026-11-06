@@ -31,8 +31,6 @@ Together with NEMO we have a small live coding night during the Museumnacht at [
 
 Algo-what??? An Algorave (@algorave) is an event where artists create electronic music and visuals "on-the-fly" (in realtime) by programming computer-code and algorithms. This is called "live coding" and is often improvised. It is a way to strip down technology, give openness and show what's happening behind our screens. The music throughout the evening has inspiration from many genres (from experimental, musique concrète, abstract, ambient to techno, house, dnb, acid and more). At moments it can be dance-able, and other moments you can dance a-rhythmically!
 
-Line-up: Linalab, Saskia, Lil Bleep, Sabrina, Timo
-
 📆 Saturday 7 November 2026
 
 🚀 Start 23h00
